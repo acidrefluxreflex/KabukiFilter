@@ -1,0 +1,2558 @@
+[
+    {
+        "id": 999999999999,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": ".*rule34*",
+            "resourceTypes": [
+                "sub_frame",
+                "speculative",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "media",
+                "imageset",
+                "beacon",
+                "xmlhttprequest",
+                "object",
+                "ping",
+                "other",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 999999999999,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": ".*amaprop*",
+            "resourceTypes": [
+                "sub_frame",
+                "speculative",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "media",
+                "imageset",
+                "beacon",
+                "xmlhttprequest",
+                "object",
+                "ping",
+                "other",
+                "websocket"
+            ]
+        }
+    },
+    {
+    "id": 1,
+    "priority": 1,
+    "action": {
+        "type": "block"
+    },
+    "condition": {
+        "urlFilter": ".*blogcms*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+    }
+},
+    {
+    "id": 1,
+    "priority": 1,
+    "action": {
+        "type": "block"
+    },
+    "condition": {
+        "urlFilter": ".*blogcms*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+    }
+},
+    {
+    "id": 1,
+    "priority": 1,
+    "action": {
+        "type": "block"
+    },
+    "condition": {
+        "urlFilter": ".*7mmtv*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+    }
+},
+    {
+      "id": 14,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*erocafe*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*nijimoemoe*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*nijinchu*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*eromash*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*eropasture*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+
+    {
+    "id": 1,
+    "priority": 1,
+    "action": {
+        "type": "block"
+    },
+    "condition": {
+        "urlFilter": ".*lesbiantaiken*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+    }
+},
+    
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": ".*porn*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*tube8*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*redtube*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*lesbianlist*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*lesbianmix*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*sexloving*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*oyoh*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*thumbzilla*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*anybunny*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*alllesbianvideo*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*-sex-*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*javmost*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*uncensored*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*javbuz*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*javf*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*hornyjav*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*javseen*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*jav247*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*tubesafari*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*javsan*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*nijisenmon*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*lovecomicz*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*niji-gazo*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*kimootoko*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*dojin*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*hime-book*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*ero-comic*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+            "urlFilter": ".*mandou*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket"
+            ]
+        }
+    },
+    {
+        
+            "id": 16,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*moemoelog*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javero*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javfree*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javbigo*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javcl*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javsky*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javtsunami*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*nude*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*xvideo*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*adult*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*xxx*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*pussy*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*spank*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*xhamster*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*mature*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*milf*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 69,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*anal*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "media"
+                ]
+            }
+        },
+        {
+            "id": 72,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*fuck*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "media"
+                ]
+            }
+        },
+        {
+            "id": 53,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*webcam*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "media"
+                ]
+            }
+        },
+        {
+            "id": 42,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*doujin*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "media"
+                ]
+            }
+        },
+        {
+            "id": 85,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*amateur*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "media"
+                ]
+            }
+        },
+        {
+            "id": 31,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*voyeur*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "media"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javmix*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javvideo*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*avgle*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 21,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*moeero-library*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*eroproject*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*erocool*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*erojav*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*erocon*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*2ji*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*erozine*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*gazo-core*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*doucolle*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*moeimg*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*bakufu*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*m4ex*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*favsite*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*erokan*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*hnalady*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*eroterest*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*nukistream*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javideo*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 17,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javtheater*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*javspot*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*hpjav*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*mangalear*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*ddd-smart*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*buhidoh*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*eromanga*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*ero-manga*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*thisav*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*dmm*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*eromenskan*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*avinfolie*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*erohon*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*h-ken*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*masutabe*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": "https://wav.tv",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*erodouga*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*tokimeki-s*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*eropuru*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*iqoo*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*erorefer*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*cavolump*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*1000giribest*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+          "id": 18,
+          "priority": 1,
+          "action": { "type": "block" },
+          "condition": {
+            "urlFilter": ".*kyonyudouga*",
+            "resourceTypes": [
+              "main_frame",
+              "sub_frame",
+              "stylesheet",
+              "script",
+              "image",
+              "font",
+              "object",
+              "xmlhttprequest",
+              "ping",
+              "csp_report",
+              "media",
+              "websocket"
+            ]
+          }
+        },
+        {
+          "id": 12,
+          "priority": 1,
+          "action": { "type": "block" },
+          "condition": {
+            "urlFilter": ".*zmero*",
+            "resourceTypes": [
+              "main_frame",
+              "sub_frame",
+              "stylesheet",
+              "script",
+              "image",
+              "font",
+              "object",
+              "xmlhttprequest",
+              "ping",
+              "csp_report",
+              "media",
+              "websocket"
+            ]
+          }
+        },
+        {
+          "id": 20,
+          "priority": 1,
+          "action": { "type": "block" },
+          "condition": {
+            "urlFilter": ".*azure-gallery*",
+            "resourceTypes": [
+              "main_frame",
+              "sub_frame",
+              "stylesheet",
+              "script",
+              "image",
+              "font",
+              "object",
+              "xmlhttprequest",
+              "ping",
+              "csp_report",
+              "media",
+              "websocket"
+            ]
+          }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*ero-video*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*ero-nuki*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*eroero*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*erogazo*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*ero-gazou*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*hobonichielog*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "priority": 1,
+            "action": { "type": "block" },
+            "condition": {
+                "urlFilter": ".*supjav*",
+                "resourceTypes": [
+                    "main_frame",
+                    "sub_frame",
+                    "stylesheet",
+                    "script",
+                    "image",
+                    "font",
+                    "object",
+                    "xmlhttprequest",
+                    "ping",
+                    "csp_report",
+                    "media",
+                    "websocket"
+                ]
+            }
+        }
+]

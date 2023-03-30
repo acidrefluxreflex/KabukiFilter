@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D5F3FC52724470700B5004E /* VolorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3FC42724470700B5004E /* VolorSample.swift */; };
+		6D5F3FC827244A2800B5004E /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = 6D5F3FC727244A2800B5004E /* DynamicColor */; };
+		6D7FF87427264C490057249A /* ColorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7FF87327264C490057249A /* ColorSample.swift */; };
+		6D8B2ADD27251F22005AA3FE /* TabSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8B2ADC27251F21005AA3FE /* TabSample.swift */; };
+		6DA3E914271961FD00C269EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3E913271961FD00C269EA /* AppDelegate.swift */; };
+		6DA3E916271961FD00C269EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3E915271961FD00C269EA /* SceneDelegate.swift */; };
+		6DA3E919271961FD00C269EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E917271961FD00C269EA /* LaunchScreen.storyboard */; };
+		6DA3E91C271961FD00C269EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E91A271961FD00C269EA /* Main.storyboard */; };
+		6DA3E925271961FD00C269EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3E924271961FD00C269EA /* AppDelegate.swift */; };
+		6DA3E928271961FD00C269EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E926271961FD00C269EA /* Main.storyboard */; };
+		6DA3E92F271961FD00C269EA /* KabukiFilter Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6DA3E92E271961FD00C269EA /* KabukiFilter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6DA3E939271961FD00C269EA /* KabukiFilter Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6DA3E938271961FD00C269EA /* KabukiFilter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6DA3E93F271961FD00C269EA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E8FA271961FA00C269EA /* Main.html */; };
+		6DA3E940271961FD00C269EA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E8FA271961FA00C269EA /* Main.html */; };
+		6DA3E941271961FD00C269EA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E8FC271961FA00C269EA /* Icon.png */; };
+		6DA3E942271961FD00C269EA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E8FC271961FA00C269EA /* Icon.png */; };
+		6DA3E943271961FD00C269EA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E8FD271961FA00C269EA /* Style.css */; };
+		6DA3E944271961FD00C269EA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E8FD271961FA00C269EA /* Style.css */; };
+		6DA3E945271961FD00C269EA /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E8FE271961FA00C269EA /* Script.js */; };
+		6DA3E946271961FD00C269EA /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E8FE271961FA00C269EA /* Script.js */; };
+		6DA3E947271961FD00C269EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3E8FF271961FA00C269EA /* ViewController.swift */; };
+		6DA3E948271961FD00C269EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3E8FF271961FA00C269EA /* ViewController.swift */; };
+		6DA3E949271961FD00C269EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E900271961FD00C269EA /* Assets.xcassets */; };
+		6DA3E94A271961FD00C269EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E900271961FD00C269EA /* Assets.xcassets */; };
+		6DA3E94B271961FD00C269EA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3E902271961FD00C269EA /* SafariWebExtensionHandler.swift */; };
+		6DA3E94C271961FD00C269EA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA3E902271961FD00C269EA /* SafariWebExtensionHandler.swift */; };
+		6DA3E94D271961FD00C269EA /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E904271961FD00C269EA /* _locales */; };
+		6DA3E94E271961FD00C269EA /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E904271961FD00C269EA /* _locales */; };
+		6DA3E94F271961FD00C269EA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E905271961FD00C269EA /* images */; };
+		6DA3E950271961FD00C269EA /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E905271961FD00C269EA /* images */; };
+		6DA3E951271961FD00C269EA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E906271961FD00C269EA /* manifest.json */; };
+		6DA3E952271961FD00C269EA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E906271961FD00C269EA /* manifest.json */; };
+		6DA3E955271961FD00C269EA /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E908271961FD00C269EA /* content.js */; };
+		6DA3E956271961FD00C269EA /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E908271961FD00C269EA /* content.js */; };
+		6DA3E957271961FD00C269EA /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E909271961FD00C269EA /* popup.html */; };
+		6DA3E958271961FD00C269EA /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E909271961FD00C269EA /* popup.html */; };
+		6DA3E959271961FD00C269EA /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E90A271961FD00C269EA /* popup.css */; };
+		6DA3E95A271961FD00C269EA /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E90A271961FD00C269EA /* popup.css */; };
+		6DA3E95B271961FD00C269EA /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E90B271961FD00C269EA /* popup.js */; };
+		6DA3E95C271961FD00C269EA /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E90B271961FD00C269EA /* popup.js */; };
+		6DA3E96E2719646800C269EA /* ruleset_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E96D2719646800C269EA /* ruleset_1.json */; };
+		6DA3E96F2719646800C269EA /* ruleset_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DA3E96D2719646800C269EA /* ruleset_1.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DA3E930271961FD00C269EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA3E8F4271961FA00C269EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA3E92D271961FD00C269EA;
+			remoteInfo = "KabukiFilter Extension (iOS)";
+		};
+		6DA3E93A271961FD00C269EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA3E8F4271961FA00C269EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA3E937271961FD00C269EA;
+			remoteInfo = "KabukiFilter Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6DA3E962271961FD00C269EA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6DA3E92F271961FD00C269EA /* KabukiFilter Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA3E969271961FD00C269EA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6DA3E939271961FD00C269EA /* KabukiFilter Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D5F3FC42724470700B5004E /* VolorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolorSample.swift; sourceTree = "<group>"; };
+		6D7FF87327264C490057249A /* ColorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSample.swift; sourceTree = "<group>"; };
+		6D8B2ADC27251F21005AA3FE /* TabSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSample.swift; sourceTree = "<group>"; };
+		6DA3E8FB271961FA00C269EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		6DA3E8FC271961FA00C269EA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6DA3E8FD271961FA00C269EA /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		6DA3E8FE271961FA00C269EA /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		6DA3E8FF271961FA00C269EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DA3E900271961FD00C269EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DA3E902271961FD00C269EA /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		6DA3E904271961FD00C269EA /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		6DA3E905271961FD00C269EA /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		6DA3E906271961FD00C269EA /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		6DA3E908271961FD00C269EA /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		6DA3E909271961FD00C269EA /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		6DA3E90A271961FD00C269EA /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		6DA3E90B271961FD00C269EA /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		6DA3E910271961FD00C269EA /* KabukiFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KabukiFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA3E913271961FD00C269EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DA3E915271961FD00C269EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6DA3E918271961FD00C269EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DA3E91B271961FD00C269EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DA3E91D271961FD00C269EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA3E922271961FD00C269EA /* KabukiFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KabukiFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA3E924271961FD00C269EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DA3E927271961FD00C269EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DA3E929271961FD00C269EA /* KabukiFilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KabukiFilter.entitlements; sourceTree = "<group>"; };
+		6DA3E92E271961FD00C269EA /* KabukiFilter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KabukiFilter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA3E933271961FD00C269EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA3E938271961FD00C269EA /* KabukiFilter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KabukiFilter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA3E93D271961FD00C269EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA3E93E271961FD00C269EA /* KabukiFilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KabukiFilter.entitlements; sourceTree = "<group>"; };
+		6DA3E96D2719646800C269EA /* ruleset_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ruleset_1.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DA3E90D271961FD00C269EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5F3FC827244A2800B5004E /* DynamicColor in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA3E91F271961FD00C269EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA3E92B271961FD00C269EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA3E935271961FD00C269EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DA3E8F3271961FA00C269EA = {
+			isa = PBXGroup;
+			children = (
+				6DA3E8F8271961FA00C269EA /* Shared (App) */,
+				6DA3E901271961FD00C269EA /* Shared (Extension) */,
+				6DA3E912271961FD00C269EA /* iOS (App) */,
+				6DA3E923271961FD00C269EA /* macOS (App) */,
+				6DA3E932271961FD00C269EA /* iOS (Extension) */,
+				6DA3E93C271961FD00C269EA /* macOS (Extension) */,
+				6DA3E911271961FD00C269EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DA3E8F8271961FA00C269EA /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3E8FF271961FA00C269EA /* ViewController.swift */,
+				6DA3E900271961FD00C269EA /* Assets.xcassets */,
+				6DA3E8F9271961FA00C269EA /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		6DA3E8F9271961FA00C269EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3E8FA271961FA00C269EA /* Main.html */,
+				6DA3E8FC271961FA00C269EA /* Icon.png */,
+				6DA3E8FD271961FA00C269EA /* Style.css */,
+				6DA3E8FE271961FA00C269EA /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DA3E901271961FD00C269EA /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3E902271961FD00C269EA /* SafariWebExtensionHandler.swift */,
+				6DA3E903271961FD00C269EA /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		6DA3E903271961FD00C269EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3E904271961FD00C269EA /* _locales */,
+				6DA3E905271961FD00C269EA /* images */,
+				6DA3E906271961FD00C269EA /* manifest.json */,
+				6DA3E96D2719646800C269EA /* ruleset_1.json */,
+				6DA3E908271961FD00C269EA /* content.js */,
+				6DA3E909271961FD00C269EA /* popup.html */,
+				6DA3E90A271961FD00C269EA /* popup.css */,
+				6DA3E90B271961FD00C269EA /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DA3E911271961FD00C269EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3E910271961FD00C269EA /* KabukiFilter.app */,
+				6DA3E922271961FD00C269EA /* KabukiFilter.app */,
+				6DA3E92E271961FD00C269EA /* KabukiFilter Extension.appex */,
+				6DA3E938271961FD00C269EA /* KabukiFilter Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DA3E912271961FD00C269EA /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3E913271961FD00C269EA /* AppDelegate.swift */,
+				6DA3E915271961FD00C269EA /* SceneDelegate.swift */,
+				6DA3E917271961FD00C269EA /* LaunchScreen.storyboard */,
+				6D5F3FC42724470700B5004E /* VolorSample.swift */,
+				6D7FF87327264C490057249A /* ColorSample.swift */,
+				6D8B2ADC27251F21005AA3FE /* TabSample.swift */,
+				6DA3E91A271961FD00C269EA /* Main.storyboard */,
+				6DA3E91D271961FD00C269EA /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		6DA3E923271961FD00C269EA /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3E924271961FD00C269EA /* AppDelegate.swift */,
+				6DA3E926271961FD00C269EA /* Main.storyboard */,
+				6DA3E929271961FD00C269EA /* KabukiFilter.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		6DA3E932271961FD00C269EA /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3E933271961FD00C269EA /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		6DA3E93C271961FD00C269EA /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				6DA3E93D271961FD00C269EA /* Info.plist */,
+				6DA3E93E271961FD00C269EA /* KabukiFilter.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DA3E90F271961FD00C269EA /* KabukiFilter (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA3E963271961FD00C269EA /* Build configuration list for PBXNativeTarget "KabukiFilter (iOS)" */;
+			buildPhases = (
+				6DA3E90C271961FD00C269EA /* Sources */,
+				6DA3E90D271961FD00C269EA /* Frameworks */,
+				6DA3E90E271961FD00C269EA /* Resources */,
+				6DA3E962271961FD00C269EA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA3E931271961FD00C269EA /* PBXTargetDependency */,
+			);
+			name = "KabukiFilter (iOS)";
+			packageProductDependencies = (
+				6D5F3FC727244A2800B5004E /* DynamicColor */,
+			);
+			productName = "KabukiFilter (iOS)";
+			productReference = 6DA3E910271961FD00C269EA /* KabukiFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DA3E921271961FD00C269EA /* KabukiFilter (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA3E96A271961FD00C269EA /* Build configuration list for PBXNativeTarget "KabukiFilter (macOS)" */;
+			buildPhases = (
+				6DA3E91E271961FD00C269EA /* Sources */,
+				6DA3E91F271961FD00C269EA /* Frameworks */,
+				6DA3E920271961FD00C269EA /* Resources */,
+				6DA3E969271961FD00C269EA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA3E93B271961FD00C269EA /* PBXTargetDependency */,
+			);
+			name = "KabukiFilter (macOS)";
+			productName = "KabukiFilter (macOS)";
+			productReference = 6DA3E922271961FD00C269EA /* KabukiFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DA3E92D271961FD00C269EA /* KabukiFilter Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA3E95F271961FD00C269EA /* Build configuration list for PBXNativeTarget "KabukiFilter Extension (iOS)" */;
+			buildPhases = (
+				6DA3E92A271961FD00C269EA /* Sources */,
+				6DA3E92B271961FD00C269EA /* Frameworks */,
+				6DA3E92C271961FD00C269EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KabukiFilter Extension (iOS)";
+			productName = "KabukiFilter Extension (iOS)";
+			productReference = 6DA3E92E271961FD00C269EA /* KabukiFilter Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6DA3E937271961FD00C269EA /* KabukiFilter Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA3E966271961FD00C269EA /* Build configuration list for PBXNativeTarget "KabukiFilter Extension (macOS)" */;
+			buildPhases = (
+				6DA3E934271961FD00C269EA /* Sources */,
+				6DA3E935271961FD00C269EA /* Frameworks */,
+				6DA3E936271961FD00C269EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KabukiFilter Extension (macOS)";
+			productName = "KabukiFilter Extension (macOS)";
+			productReference = 6DA3E938271961FD00C269EA /* KabukiFilter Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DA3E8F4271961FA00C269EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6DA3E90F271961FD00C269EA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6DA3E921271961FD00C269EA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6DA3E92D271961FD00C269EA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6DA3E937271961FD00C269EA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 6DA3E8F7271961FA00C269EA /* Build configuration list for PBXProject "KabukiFilter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DA3E8F3271961FA00C269EA;
+			packageReferences = (
+				6D5F3FC627244A2800B5004E /* XCRemoteSwiftPackageReference "DynamicColor" */,
+			);
+			productRefGroup = 6DA3E911271961FD00C269EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DA3E90F271961FD00C269EA /* KabukiFilter (iOS) */,
+				6DA3E921271961FD00C269EA /* KabukiFilter (macOS) */,
+				6DA3E92D271961FD00C269EA /* KabukiFilter Extension (iOS) */,
+				6DA3E937271961FD00C269EA /* KabukiFilter Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DA3E90E271961FD00C269EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA3E941271961FD00C269EA /* Icon.png in Resources */,
+				6DA3E919271961FD00C269EA /* LaunchScreen.storyboard in Resources */,
+				6DA3E93F271961FD00C269EA /* Main.html in Resources */,
+				6DA3E945271961FD00C269EA /* Script.js in Resources */,
+				6DA3E949271961FD00C269EA /* Assets.xcassets in Resources */,
+				6DA3E91C271961FD00C269EA /* Main.storyboard in Resources */,
+				6DA3E943271961FD00C269EA /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA3E920271961FD00C269EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA3E942271961FD00C269EA /* Icon.png in Resources */,
+				6DA3E944271961FD00C269EA /* Style.css in Resources */,
+				6DA3E928271961FD00C269EA /* Main.storyboard in Resources */,
+				6DA3E946271961FD00C269EA /* Script.js in Resources */,
+				6DA3E94A271961FD00C269EA /* Assets.xcassets in Resources */,
+				6DA3E940271961FD00C269EA /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA3E92C271961FD00C269EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA3E959271961FD00C269EA /* popup.css in Resources */,
+				6DA3E957271961FD00C269EA /* popup.html in Resources */,
+				6DA3E94F271961FD00C269EA /* images in Resources */,
+				6DA3E951271961FD00C269EA /* manifest.json in Resources */,
+				6DA3E94D271961FD00C269EA /* _locales in Resources */,
+				6DA3E96E2719646800C269EA /* ruleset_1.json in Resources */,
+				6DA3E955271961FD00C269EA /* content.js in Resources */,
+				6DA3E95B271961FD00C269EA /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA3E936271961FD00C269EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA3E95A271961FD00C269EA /* popup.css in Resources */,
+				6DA3E958271961FD00C269EA /* popup.html in Resources */,
+				6DA3E950271961FD00C269EA /* images in Resources */,
+				6DA3E952271961FD00C269EA /* manifest.json in Resources */,
+				6DA3E94E271961FD00C269EA /* _locales in Resources */,
+				6DA3E96F2719646800C269EA /* ruleset_1.json in Resources */,
+				6DA3E956271961FD00C269EA /* content.js in Resources */,
+				6DA3E95C271961FD00C269EA /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DA3E90C271961FD00C269EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5F3FC52724470700B5004E /* VolorSample.swift in Sources */,
+				6D8B2ADD27251F22005AA3FE /* TabSample.swift in Sources */,
+				6DA3E947271961FD00C269EA /* ViewController.swift in Sources */,
+				6DA3E914271961FD00C269EA /* AppDelegate.swift in Sources */,
+				6DA3E916271961FD00C269EA /* SceneDelegate.swift in Sources */,
+				6D7FF87427264C490057249A /* ColorSample.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA3E91E271961FD00C269EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA3E948271961FD00C269EA /* ViewController.swift in Sources */,
+				6DA3E925271961FD00C269EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA3E92A271961FD00C269EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA3E94B271961FD00C269EA /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA3E934271961FD00C269EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA3E94C271961FD00C269EA /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DA3E931271961FD00C269EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA3E92D271961FD00C269EA /* KabukiFilter Extension (iOS) */;
+			targetProxy = 6DA3E930271961FD00C269EA /* PBXContainerItemProxy */;
+		};
+		6DA3E93B271961FD00C269EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA3E937271961FD00C269EA /* KabukiFilter Extension (macOS) */;
+			targetProxy = 6DA3E93A271961FD00C269EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DA3E8FA271961FA00C269EA /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA3E8FB271961FA00C269EA /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		6DA3E917271961FD00C269EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA3E918271961FD00C269EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6DA3E91A271961FD00C269EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA3E91B271961FD00C269EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DA3E926271961FD00C269EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA3E927271961FD00C269EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DA3E95D271961FD00C269EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DA3E95E271961FD00C269EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6DA3E960271961FD00C269EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR9P77GFSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "KabukiFilter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakaba.KabukiFilter.Extension;
+				PRODUCT_NAME = "KabukiFilter Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DA3E961271961FD00C269EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR9P77GFSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "KabukiFilter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakaba.KabukiFilter.Extension;
+				PRODUCT_NAME = "KabukiFilter Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DA3E964271961FD00C269EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR9P77GFSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = KabukiFilter;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakaba.KabukiFilter;
+				PRODUCT_NAME = KabukiFilter;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DA3E965271961FD00C269EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR9P77GFSX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = KabukiFilter;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakaba.KabukiFilter;
+				PRODUCT_NAME = KabukiFilter;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DA3E967271961FD00C269EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/KabukiFilter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR9P77GFSX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "KabukiFilter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakaba.KabukiFilter.Extension;
+				PRODUCT_NAME = "KabukiFilter Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6DA3E968271961FD00C269EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/KabukiFilter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR9P77GFSX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "KabukiFilter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakaba.KabukiFilter.Extension;
+				PRODUCT_NAME = "KabukiFilter Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6DA3E96B271961FD00C269EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/KabukiFilter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR9P77GFSX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KabukiFilter;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakaba.KabukiFilter;
+				PRODUCT_NAME = KabukiFilter;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6DA3E96C271961FD00C269EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/KabukiFilter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR9P77GFSX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = KabukiFilter;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wakaba.KabukiFilter;
+				PRODUCT_NAME = KabukiFilter;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DA3E8F7271961FA00C269EA /* Build configuration list for PBXProject "KabukiFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA3E95D271961FD00C269EA /* Debug */,
+				6DA3E95E271961FD00C269EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA3E95F271961FD00C269EA /* Build configuration list for PBXNativeTarget "KabukiFilter Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA3E960271961FD00C269EA /* Debug */,
+				6DA3E961271961FD00C269EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA3E963271961FD00C269EA /* Build configuration list for PBXNativeTarget "KabukiFilter (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA3E964271961FD00C269EA /* Debug */,
+				6DA3E965271961FD00C269EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA3E966271961FD00C269EA /* Build configuration list for PBXNativeTarget "KabukiFilter Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA3E967271961FD00C269EA /* Debug */,
+				6DA3E968271961FD00C269EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA3E96A271961FD00C269EA /* Build configuration list for PBXNativeTarget "KabukiFilter (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA3E96B271961FD00C269EA /* Debug */,
+				6DA3E96C271961FD00C269EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6D5F3FC627244A2800B5004E /* XCRemoteSwiftPackageReference "DynamicColor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yannickl/DynamicColor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6D5F3FC727244A2800B5004E /* DynamicColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D5F3FC627244A2800B5004E /* XCRemoteSwiftPackageReference "DynamicColor" */;
+			productName = DynamicColor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6DA3E8F4271961FA00C269EA /* Project object */;
+}
