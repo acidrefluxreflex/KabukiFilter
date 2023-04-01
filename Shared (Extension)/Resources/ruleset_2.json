@@ -1,0 +1,1059 @@
+[
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "object_subrequest",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*ad-stir*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "object_subrequest",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*amoad*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "object_subrequest",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*fam-8*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "object_subrequest",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adsystem*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "object_subrequest",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*jptotalrank*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "object_subrequest",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*rd-ane*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "object_subrequest",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*digest-recommend*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "object_subrequest",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*yads*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "object_subrequest",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*zucks*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "object_subrequest",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*geniee*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+ 
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*blogcms*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "beacon",
+            "object_subrequest",
+            "script",
+            "image",
+            "imageset",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "other",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adingo*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "beacon",
+            "object_subrequest",
+            "script",
+            "image",
+            "imageset",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "other",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*criteo*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "beacon",
+            "object_subrequest",
+            "script",
+            "image",
+            "imageset",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "other",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*bypass*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "beacon",
+            "object_subrequest",
+            "script",
+            "image",
+            "imageset",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "other",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adpon*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "beacon",
+            "object_subrequest",
+            "script",
+            "image",
+            "imageset",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "other",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*amoad*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "beacon",
+            "object_subrequest",
+            "script",
+            "image",
+            "imageset",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "other",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*ad-move*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "beacon",
+            "object_subrequest",
+            "script",
+            "image",
+            "imageset",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "other",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*microad*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "beacon",
+            "object_subrequest",
+            "script",
+            "image",
+            "imageset",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "other",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adtdp*",
+        "resourceTypes": [
+            "sub_frame",
+            "script",
+            "font",
+            "object",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*ad-stir*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*denshoba*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adclick*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*admin*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*solty*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*matomeportal*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*uuuu*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*pagead*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*pubmatic*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*360yield*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*blogroll*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adroute*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*dsp\\.abh*",
+        "resourceTypes": [
+            "main_frame",
+            "sub_frame",
+            "stylesheet",
+            "script",
+            "image",
+            "font",
+            "object",
+            "xmlhttprequest",
+            "ping",
+            "csp_report",
+            "media",
+            "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*spacenine*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*nend*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adserver*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adplan*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*i-mobile*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*ad_bomb*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*ad_parts*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*ad_timer*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adcast*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adContent*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },  {
+      "id": 15,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adgetter*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adparts*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*adsidebar*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": ".*advalue*",
+        "resourceTypes": [
+          "main_frame",
+          "sub_frame",
+          "stylesheet",
+          "script",
+          "image",
+          "font",
+          "object",
+          "xmlhttprequest",
+          "ping",
+          "csp_report",
+          "media",
+          "websocket"
+        ]
+      }
+    }
+
+]
+

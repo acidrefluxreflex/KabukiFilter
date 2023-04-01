@@ -49,6 +49,7 @@ struct TimerView: View {
         .onChange(of: controller.date) { _ in
             updateDaysElapsed()
         }
+       
         
     }
     

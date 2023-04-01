@@ -17,6 +17,7 @@ struct URLSection: View {
         VStack {
             DaisyTextField(text: $text, placeholder: "New Word")
              .padding()
+            
             Button("save") {
                 if text.count <= 2 {
                     isShowAlert = true
@@ -37,13 +38,24 @@ struct URLSection: View {
     }
     
     private func save() {
-        model.replaceSites.append(text)
+        model.replaceSites.append(
+           fixURL(text)
+        )
         text.removeAll()
     }
     
     private func delete(at offsets: IndexSet) {
         model.replaceSites.remove(atOffsets: offsets)
       }
+    
+    private func fixURL(_ text: String) -> String {
+        if let url = URL(string: text) {
+            let formattedUrl = url.host ?? ""
+            return formattedUrl // app.revenuecat.com
+        } else {
+            return text
+        }
+    }
 }
 
 struct URLSection_Previews: PreviewProvider {

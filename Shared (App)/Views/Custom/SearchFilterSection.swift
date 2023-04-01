@@ -44,6 +44,16 @@ struct SearchFilterSection: View {
     private func delete(at offsets: IndexSet) {
         model.blurSites.remove(atOffsets: offsets)
       }
+    
+    private func fixURL(_ text: String) -> String {
+        if let url = URL(string: text) {
+            let formattedUrl = url.host ?? ""
+            return formattedUrl // app.revenuecat.com
+        } else {
+            return text
+        }
+    }
+    
 }
 
 struct SearchFilterSection_Previews: PreviewProvider {

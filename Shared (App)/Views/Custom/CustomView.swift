@@ -9,19 +9,20 @@ import SwiftUI
 
 struct CustomView: View {
     var body: some View {
+        
         NavigationStack {
-            NavigationLink(destination:  RowCustomView()) {
-                Text("RowCustom")
-            }
-            NavigationLink(destination:  WordSection()) {
-                Text("Word")
-            }
-            NavigationLink(destination:  SearchFilterSection()) {
-                Text("Search")
-            }
-            NavigationLink(destination:  URLSection()) {
-                Text("URl")
-            }
+            
+            List {
+                NavigationLink(destination:  WordSection()) {
+                    TextButtonStyle(title:"Word")
+                }
+                NavigationLink(destination:  SearchFilterSection()) {
+                    TextButtonStyle(title:"Search")
+                }
+                NavigationLink(destination:  URLSection()) {
+                    TextButtonStyle(title:"URL")
+                }
+            }.navigationTitle("Custom")
         }
     }
 }

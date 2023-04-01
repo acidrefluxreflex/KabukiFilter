@@ -5,12 +5,14 @@
 //  Created by Kabuki Iwashita on 2021/10/28.
 //
 
-import SwiftUI
 import FirebaseCore
+import SwiftUI
 
 class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+  func application(
+    _ application: UIApplication,
+    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
+  ) -> Bool {
     FirebaseApp.configure()
     return true
   }
@@ -18,17 +20,16 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 @main
 struct IzumoApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    @AppStorage("isFirstLaunch") var isFirstLaunch = true
-    
-    init() {
-       
-       
+  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+  @AppStorage("isFirstLaunch") var isFirstLaunch = true
+
+  init() {
+
+  }
+
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
-    
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+  }
 }
