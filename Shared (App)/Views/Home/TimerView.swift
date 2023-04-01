@@ -15,34 +15,18 @@ struct TimerView: View {
     @StateObject private var controller = TimerController()
     
     var body: some View {
-        VStack {
-            Text("\(daysElapsed) days")
-                .bold()
-                .font(.largeTitle)
-                .padding()
-            
-            Button(action: {
-                showingAlert.toggle()
-            }) {
-                Text("Reset")
-            }.alert("タイトル", isPresented: $showingAlert) {
-                Button("削除", role: .destructive){
-                  tapButton()
-                }
-            } message: {
-                Text("詳細メッセージ")
+        ZStack {
+           RoundedRectangle(cornerRadius: 8)
+                .stroke(.secondary, lineWidth: 1)
+            VStack {
+                Text("\(daysElapsed) days")
+                    .bold()
+                    .font(.largeTitle)
+                    .padding()
+                resetButton()
+                startDatePicker()
             }
-            
-            HStack {
-                Text("Start")
-                DatePicker("Start Date",
-                           selection: $controller.date,
-                           in: ...Date(), displayedComponents: .date)
-                .disabled(!isDaysZero())
-                .labelsHidden()
-            }.padding()
-                .foregroundColor(isDaysZero() ? .primary : .secondary)
-        }
+        }.frame(height: 200)
         .onAppear {
             updateDaysElapsed()
         }
@@ -71,7 +55,36 @@ struct TimerView: View {
     private func isDaysZero() -> Bool {
        daysElapsed == 0
     }
+    
+    
+    private func resetButton() -> some View {
+        Button(action: {
+            showingAlert.toggle()
+        }) {
+            Text("Reset")
+        }.alert("タイトル", isPresented: $showingAlert) {
+            Button("削除", role: .destructive){
+              tapButton()
+            }
+        } message: {
+            Text("詳細メッセージ")
+        }
+    }
+    
+    private func startDatePicker() -> some View {
+        HStack {
+            Text("Start")
+            DatePicker("Start Date",
+                       selection: $controller.date,
+                       in: ...Date(), displayedComponents: .date)
+            .disabled(!isDaysZero())
+            .labelsHidden()
+        }.padding()
+            .foregroundColor(isDaysZero() ? .primary : .secondary)
+    }
 }
+
+
 
 struct TimerView_Previews: PreviewProvider {
     static var previews: some View {

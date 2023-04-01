@@ -6,6 +6,7 @@
 //
 
 import FirebaseCore
+import RevenueCat
 import SwiftUI
 
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -23,9 +24,21 @@ struct IzumoApp: App {
   @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
   @AppStorage("isFirstLaunch") var isFirstLaunch = true
 
-  init() {
+    init() {
 
-  }
+           Purchases.debugLogsEnabled = true
+           Purchases.configure(withAPIKey: Constants.apiKey,
+           appUserID: nil,
+           observerMode: false)
+           
+          // ライブラリ有効化
+          //IQKeyboardManager.shared.enable = true
+          // キーボードの上のToolbar「「Done」ボタンがあるエリア」を非表示にする
+          //IQKeyboardManager.shared.enableAutoToolbar = false
+          // 外側をタップしたときにキーボードを閉じる
+          //IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+
+      }
 
   var body: some Scene {
     WindowGroup {

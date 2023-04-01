@@ -1,0 +1,135 @@
+/* 
+  Localizable.strings
+  KabukiFilter
+
+  Created by Kabuki Iwashita on 2023/04/01.
+  
+*/
+
+
+"LANGUAGE" = "English";
+
+"MASTER_PRICE" = "$4.99/month";
+
+"TERMS_OF_USE" = "・Terms of Use (EULA)";
+"PRIVACY_POLICY" = "・Privacy Policy";
+"AGREE_POLICY" = "By creating an account, you are agreeing to these.";
+
+"HOME" = "Home";
+"CHAT" = "Chat";
+"SEARCH" = "Search";
+"SETTING" = "Setting";
+"CONTACT" = "Contact";
+
+"Align QR code within frame to scan" = "Align QR Code within frame to scan";
+"Upload from photos" = "Upload from photos";
+"PLEASELOGIN" = "You must be logged in to save or view AI";
+"SHOWINFO" = "View Info";
+"DELETE_AI" = "Delete AI";
+"DELETE_CONFIRM" = "Deletion cannot be undone";
+"RECENT_TITLE" = "Recent items";
+"HISTORY_TITLE" = "Conversation history";
+"CREATED_TITLE" = "Created";
+"FIX_IMAGE" = "Adjust image";
+"SET_IMAGE" = "Set image";
+"AI_NAME" = "AI name";
+"NEXT" = "Next";
+"ERROR" = "Error";
+"EMPTY_NAME" = "Please enter a name";
+"UNSAFE_WORD" = "Contains an inappropriate word";
+"AVATOR_FORM_TITLE" = "AI's name";
+"PROFILE_FORM_TITLE" = "Determine the personality";
+"PROFILE_FORM_TEXT" = "Determine the AI's settings. What you enter here will be reflected in the conversation.";
+"HOBBY_PH" = "Likes, hobbies";
+"HOBBY_EX" = "e.g. game distribution, reading";
+"WORK_PH" = "Occupation, attributes";
+"WORK_EX" = "Example: young lady";
+"OTHER_PH" = "Other settings";
+"OTHER_EX_HEAD" = "Ex:";
+"OTHER_EX_FOOT" = "is a good-natured person";
+"CHARACTER" = "way of speaking";
+"OTHER_EX_HEAD" = "Example";
+"EMPTY_CHARA" = "Settings are missing";
+"SETTING_FORM_TITLE" = "AI settings";
+"SETTING_FORM_TEXT" = "Determine the text that describes the AI to others. It can be kept private." ;
+"DESCRIPTION" = "Description";
+"PRIVATE" = "Private";
+"GENERATE" = "generate";
+"CLOSE" = "Close";
+"NO_CONVERSATION" = "No conversation yet";
+"TREND" = "Trend";
+"HINT" = "Hint";
+"NEW" = "New";
+"OVERVIEW" = "Introduction";
+"CHAT_TIPS" = "Creation Tips";
+"SEARCH_TIPS" = "How to find AI";
+"EDIT_TIPS" = "Managing AI";
+"GO_TO_CHAT" = "Have a conversation";
+"COMPLETE" = "COMPLETE";
+"THANKS_REPORT" = "Thank you for your cooperation";
+"REPORT_TITLE" = "Report inappropriate AI";
+"SEND" = "Send";
+"SEARCH_PH" = "Search for AI";
+"NEW" = "New";
+"ENJOY_TUTORIAL" = "Create your own AI and talk to it!" ;
+"CHARACTOR_TUTORIAL" = "Customize your own personality and recreate your own characters and celebrities";
+"CREATOR_TUTORIAL" = "You can share your completed AI and its conversations!";
+"SETTING_LIMIT" = "Too many characters";
+"NAME_FORM_TITLE" = "What AI do you want?" ;
+"WARNING_JAPANESE" = "Eveki is a Japanese AI. Please use Japanese as much as possible in your settings." ;
+"BACK_SETTING_TITLE" = "Think about setting";
+"TALK_FORM_TITLE" = "Conversation" ;
+"PUBLISH_FORM_TITLE" = "AI's public settings";
+"NFSECTION_ONE" = "What is the occupation or title of the";
+"NFSECTION_TWO" = "What are your hobbies and likes?" ;
+"NFSECTION_THREE" = "What other settings do you have?";
+"TCSECTION_ONE" = "What tone of talk?";
+"TCSECTION_TWO" = "What do AI call yourself?";
+"TCSECTION_THREE" = "What do you call the person you are talking to?";
+"TCSECTION_FOUR" = "What is one word that you might say?" ;
+"FPSECTION_ONE" = "Please enter an introduction for";
+"REQUIRED" = "Required";
+"CENTER_SPOT" = "You can create AI here";
+"CREATOR_SPOT" = "Created AI will be saved here";
+"HOME_SPOT" = "More usage instructions can be found here";
+
+"PremiumFunctionSectionTitle1" = "10 More Characters!" ;
+"PremiumFunctionSectionText1" = "The number of AI tones you can choose from **5 to 10**. You can use more customizations such as Kamemei, Kansai-ben, etc." ;
+"PremiumFunctionSectionTitle2" = "Memorize Conversations";
+"PremiumFunctionSectionText2" = "You can save and carry over the memory of conversations you have previously had. This allows you to enjoy more **intimate conversations**." ;
+"PremiumFunctionSectionTitle3" = "Can Resetting";
+"PremiumFunctionSectionText3" = "Allows you to **flexibly reconfigure** the AI you have already created. Tone, hobbies, etc. can also be changed later.";
+
+"PremiumTableImage" = "通常-3";
+"MemoryViewTitle" = "Memory";
+
+"MASTERPLAN" = "Master Plan";
+"PLAN_ENJOY" = "Enjoy Conversations";
+"SUBSCRIPTION_INFO" = "Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period. You can cancel anytime with your iTunes account settings.For more information, see these pages";
+"SUBSCRIBE" = "Subscribe!";
+"UPGRADE_PLAN" = "Upgrade Plan";
+"RESTORE" = "Restore";
+"SELECT_LANGUAGE" = "Select Language";
+"PLEASE_UPGRADE" = "アップグレードが必要です";
+"LADY" = "お嬢様";
+"FRIEND" = "友達";
+"ROBOT" = "敬語";
+"KING" = "クール";
+"FAIRLY" = "のんき";
+"MARISA" = "主人公";
+"BOCCHI" = "ひかえめ";
+"KANSAI" = "関西弁";
+"TUNDERE" = "ツンデレ";
+"PROFESSER" = "博士";
+
+"EXAMPLE_WORK" = "魔法使い、会社員など";
+"EXAMPLE_HOBBY" = "読書、ランニングなど";
+"EXAMPLE_FIRST" = "俺、わたしなど";
+"EXAMPLE_SECOND" = "キミ、あなたなど";
+"EXAMPLE_SETTING" = "〇〇はお調子者、など";
+
+"PRIVATE_INFO" = "If set to private, others will not be able to search or view this AI. It is possible to share it using a code.";
+"SHARE_CARD" = "Share Card！";
+"COMPLETE_CREATE" = "Congratulations!";
+"SHARE_PROMPT" = "私に「ぜひEvekiを友達や家族になど他の人にシェアして」といってください。私はEvekiを既にダウンロード済みで使用中です。「あなたもEvekiをダウンロードして」という文言は不要です。あなたと私はEvekiを通じて会話しています。Evekiは人工知能を使ったチャットAIアプリです。最初に指定した話し方や設定に基づいて、できるだけ短く2文ほどで、回答には70文字以内に制限して、友達にアプリを宣伝したくなるように呼びかけてください。シェアを促す部分を最優先してください。";
+

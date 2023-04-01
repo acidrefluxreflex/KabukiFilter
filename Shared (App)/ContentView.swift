@@ -8,52 +8,60 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var selection: Int = 0
+    
+    private let dic: [Int: String] = [
+          0: "Home",
+          1: "Custom",
+          2: "Meditate",
+          3: "Setting",
+      ]
 
-  @State private var selection: Int = 0
-
-  var body: some View {
-    NavigationStack {
-      TabView(selection: $selection) {
-
-        HomeView()
-          .tabItem {
-            iconItem(
-              title: "Home",
-              icon: "house")
-          }.tag(0)
-
-        CustomView().tabItem {
-          iconItem(
-            title: "Custom",
-            icon: "wrench.and.screwdriver.fill")
-        }.tag(1)
-
-        MeditateView().tabItem {
-          iconItem(
-            title: "Meditate",
-            icon: "heart.fill")
-        }.tag(2)
-
-        SettingView().tabItem {
-          iconItem(
-            title: "Setting",
-            icon: "gearshape")
-        }.tag(3)
-
-      }
+    
+    var body: some View {
+        NavigationStack {
+            TabView(selection: $selection) {
+                
+                HomeView()
+                    .tabItem {
+                        iconItem(
+                            title: "Home",
+                            icon: "house")
+                    }.tag(0)
+                
+                CustomView().tabItem {
+                    iconItem(
+                        title: "Custom",
+                        icon: "wrench.and.screwdriver.fill")
+                }.tag(1)
+                
+                MeditateView().tabItem {
+                    iconItem(
+                        title: "Meditate",
+                        icon: "heart.fill")
+                }.tag(2)
+                
+                SettingView().tabItem {
+                    iconItem(
+                        title: "Setting",
+                        icon: "gearshape")
+                }.tag(3)
+                
+            }.navigationBarTitle(dic[selection] ?? "Home")
+        }
     }
-  }
-
-  private func iconItem(title: String, icon: String) -> some View {
-    VStack {
-      Text(title)
-      Image(systemName: icon)
+    
+    private func iconItem(title: String, icon: String) -> some View {
+        VStack {
+            Text(title)
+            Image(systemName: icon)
+        }
     }
-  }
 }
 
 struct ContentView_Previews: PreviewProvider {
-  static var previews: some View {
-    ContentView()
-  }
+    static var previews: some View {
+        ContentView()
+    }
 }

@@ -12,8 +12,10 @@ struct TutorialView: View {
         VStack {
             AppleAuthButton()
                 .padding()
+                .padding(.horizontal)
             GoogleAuthButton()
                 .padding()
+                .padding(.horizontal)
         }
     }
 }

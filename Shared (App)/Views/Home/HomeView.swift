@@ -11,9 +11,12 @@ struct HomeView: View {
     
     var body: some View {
 
-            VStack {
+            ScrollView {
                 TimerView()
+                    .padding(.horizontal)
                 NewsSection()
+               PremiumButton()
+                    .padding()
                 NavigationLink(destination: HelpSection()) {
                     Text("Help")
                 }

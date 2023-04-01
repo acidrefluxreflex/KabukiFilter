@@ -8,15 +8,24 @@
 import SwiftUI
 
 struct MeditateView: View {
+    
+    private let lc = LocalizeCodes()
+    
     var body: some View {
-        NavigationStack {
-            NavigationLink(destination: PanicView()) {
-              Text("Panic")
+    
+            List {
+                NavigationLink(destination: PanicView()) {
+                    TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle5),
+                                    text: lc.text(.AlertDescription),
+                                    systemName: "exclamationmark.triangle")
+                }
+                NavigationLink(destination: ChatView()) {
+                    TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle4),
+                                    text: lc.text(.ChatDescription),
+                                    systemName: "smiley")
+                }
             }
-            NavigationLink(destination: ChatView()) {
-              Text("Chat")
-            }
-        }
+        
     }
 }
 

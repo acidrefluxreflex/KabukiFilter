@@ -8,22 +8,30 @@
 import SwiftUI
 
 struct CustomView: View {
+    
+    private let lc = LocalizeCodes()
+    
     var body: some View {
         
-        NavigationStack {
-            
+  
             List {
                 NavigationLink(destination:  WordSection()) {
-                    TextButtonStyle(title:"Word")
+                    TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle1),
+                                    text: lc.text(.WordDescription),
+                                    systemName: "textformat")
                 }
                 NavigationLink(destination:  SearchFilterSection()) {
-                    TextButtonStyle(title:"Search")
+                    TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle2),
+                                    text: lc.text(.SearchDescription),
+                                    systemName: "magnifyingglass")
                 }
                 NavigationLink(destination:  URLSection()) {
-                    TextButtonStyle(title:"URL")
+                    TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle3),
+                                    text: lc.text(.URLDescription),
+                                    systemName: "photo")
                 }
-            }.navigationTitle("Custom")
-        }
+            }
+        
     }
 }
 

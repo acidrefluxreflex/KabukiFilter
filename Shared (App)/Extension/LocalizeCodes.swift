@@ -227,6 +227,8 @@ class LocalizeCodes {
 
         ///AIの再設定が可能に
         case PremiumFunctionSectionTitle3 = "PremiumFunctionSectionTitle3"
+        case PremiumFunctionSectionTitle4 = "PremiumFunctionSectionTitle4"
+        case PremiumFunctionSectionTitle5 = "PremiumFunctionSectionTitle5"
 
         ///作成済みのAIに対して自由に再設定ができるようになります。口調や趣味なども後から変更可能になります。
         case PremiumFunctionSectionText3 = "PremiumFunctionSectionText3"
@@ -271,6 +273,11 @@ case PleaseUpgrade = "PLEASE_UPGRADE"
         case ShareCard = "SHARE_CARD"
         case CompleteCreate = "COMPLETE_CREATE"
         case SharePrompt = "SHARE_PROMPT"
+        case URLDescription = "URL_DESCRIPTION"
+        case WordDescription = "WORD_DESCRIPTION"
+        case SearchDescription = "SEARCH_DESCRIPTION"
+        case ChatDescription = "CHAT_DESCRIPTION"
+        case AlertDescription = "ALERT_DESCRIPTION"
     }
 
     func text(_ code: Code) -> String {
