@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct SettingView: View {
+    
+    @State private var flag = false
+    
     var body: some View {
         List {
-            Text("Logout")
-            Text("Contact")
-            Text("Setting")
+            LogOutButton()
+            DeleteAccountButton()
+            #if DEBUG
+            NavigationLink("test")  {
+                ChatView()
+            }
+            #endif
         }
     }
 }

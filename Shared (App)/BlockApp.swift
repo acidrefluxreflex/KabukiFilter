@@ -8,15 +8,20 @@
 import FirebaseCore
 import RevenueCat
 import SwiftUI
+import GoogleSignIn
 
 class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(
-    _ application: UIApplication,
-    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
-  ) -> Bool {
-    FirebaseApp.configure()
-    return true
-  }
+    func application(
+        _ application: UIApplication, open url: URL,
+        options: [UIApplication.OpenURLOptionsKey: Any]
+    )
+        -> Bool
+    {
+       // UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) {
+     
+        return GIDSignIn.sharedInstance.handle(url)
+    }
+
 }
 
 @main
@@ -30,7 +35,7 @@ struct IzumoApp: App {
            Purchases.configure(withAPIKey: Constants.apiKey,
            appUserID: nil,
            observerMode: false)
-           
+           FirebaseApp.configure()
           // ライブラリ有効化
           //IQKeyboardManager.shared.enable = true
           // キーボードの上のToolbar「「Done」ボタンがあるエリア」を非表示にする
@@ -43,6 +48,9 @@ struct IzumoApp: App {
   var body: some Scene {
     WindowGroup {
       ContentView()
+            .sheet(isPresented: $isFirstLaunch) {
+                TutorialView()
+            }
     }
   }
 }

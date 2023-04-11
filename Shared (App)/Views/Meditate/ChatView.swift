@@ -74,7 +74,7 @@ struct ChatView: View {
                //manager.checkUserSubscribed()
                chatController.getAPIURL()
                chatController.getEnAPIURL()
-               let m = Message(message: "どうしましたか？", avatar: "", color:.accentColor, type: .bot)
+               let m = Message(message: lc.text(.BotGreeting), avatar: "", color:.accentColor, type: .bot)
                chatController.messages.append(m)
 
             

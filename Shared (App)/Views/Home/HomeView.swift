@@ -9,19 +9,24 @@ import SwiftUI
 
 struct HomeView: View {
     
+    private let lc = LocalizeCodes()
+    
     var body: some View {
 
             ScrollView {
                 TimerView()
                     .padding(.horizontal)
+                /*
                 NewsSection()
+                 */
                PremiumButton()
                     .padding()
                 NavigationLink(destination: HelpSection()) {
-                    Text("Help")
+                    DaisyButtonStyle(text: lc.text(.Hint))
+                        .padding()
                 }
                 Spacer()
-            }.navigationBarTitle("Home")
+            }
 
         
     }

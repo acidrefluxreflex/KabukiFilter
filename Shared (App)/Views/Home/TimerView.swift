@@ -13,13 +13,14 @@ struct TimerView: View {
     @State private var daysElapsed = 0
     @State private var showingAlert = false
     @StateObject private var controller = TimerController()
+    private let lc = LocalizeCodes()
     
     var body: some View {
         ZStack {
            RoundedRectangle(cornerRadius: 8)
                 .stroke(.secondary, lineWidth: 1)
             VStack {
-                Text("\(daysElapsed) days")
+                Text(localizedDays() + " " +  lc.text(.Days))
                     .bold()
                     .font(.largeTitle)
                     .padding()
@@ -56,32 +57,45 @@ struct TimerView: View {
        daysElapsed == 0
     }
     
+    private func localizedDays() -> String {
+        if lc.text(.Language) == "Arabic" {
+            let numberFormatter = NumberFormatter()
+            numberFormatter.locale = Locale(identifier: "ar") // アラビア語ロケールを指定
+            let number = numberFormatter.number(from: "1234")
+            let arabicNumber = numberFormatter.string(from: daysElapsed as NSNumber)
+            return arabicNumber!.description
+        } else {
+            return daysElapsed.description
+        }
+    }
     
     private func resetButton() -> some View {
         Button(action: {
             showingAlert.toggle()
         }) {
-            Text("Reset")
-        }.alert("タイトル", isPresented: $showingAlert) {
-            Button("削除", role: .destructive){
+            Text(lc.text(.Reset))
+        }.alert(lc.text(.Reset), isPresented: $showingAlert) {
+            Button(lc.text(.Reset), role: .destructive){
               tapButton()
             }
         } message: {
-            Text("詳細メッセージ")
+            Text(lc.text(.ResetMessage))
         }
     }
     
     private func startDatePicker() -> some View {
         HStack {
-            Text("Start")
-            DatePicker("Start Date",
+           
+            DatePicker(lc.text(.StartDay),
                        selection: $controller.date,
                        in: ...Date(), displayedComponents: .date)
             .disabled(!isDaysZero())
-            .labelsHidden()
+           
         }.padding()
             .foregroundColor(isDaysZero() ? .primary : .secondary)
     }
+    
+    
 }
 
 

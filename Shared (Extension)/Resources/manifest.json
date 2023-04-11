@@ -51,8 +51,6 @@
         "declarativeNetRequest",
         "activeTab",
         "nativeMessaging",
-        "https://some-random-api.ml/*",
-        "webRequest",
         "<all_urls>"
     ]
 }

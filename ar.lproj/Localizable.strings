@@ -7,7 +7,7 @@
 */
 
 
-"LANGUAGE" = "English";
+"LANGUAGE" = "Arabic";
 
 "MASTER_PRICE" = "$4.99/month";
 
@@ -15,11 +15,13 @@
 "PRIVACY_POLICY" = "・Privacy Policy";
 "AGREE_POLICY" = "By creating an account, you are agreeing to these.";
 
-"HOME" = "Home";
-"CHAT" = "Chat";
-"SEARCH" = "Search";
-"SETTING" = "Setting";
-"CONTACT" = "Contact";
+"HOME" = "الصفحة الرئيسية";
+"CHAT" = "الدردشة";
+"SEARCH" = "البحث";
+"SETTING" = "الإعدادات";
+"CONTACT" = "جهة الاتصال";
+"CUSTOM" = "مخصص";
+"RELAX" = "الاسترخاء";
 
 "Align QR code within frame to scan" = "Align QR Code within frame to scan";
 "Upload from photos" = "Upload from photos";
@@ -93,34 +95,25 @@
 "CREATOR_SPOT" = "Created AI will be saved here";
 "HOME_SPOT" = "More usage instructions can be found here";
 
-"PremiumFunctionSectionTitle1" = "10 More Characters!" ;
-"PremiumFunctionSectionText1" = "The number of AI tones you can choose from **5 to 10**. You can use more customizations such as Kamemei, Kansai-ben, etc." ;
-"PremiumFunctionSectionTitle2" = "Memorize Conversations";
-"PremiumFunctionSectionText2" = "You can save and carry over the memory of conversations you have previously had. This allows you to enjoy more **intimate conversations**." ;
-"PremiumFunctionSectionTitle3" = "Can Resetting";
-"PremiumFunctionSectionText3" = "Allows you to **flexibly reconfigure** the AI you have already created. Tone, hobbies, etc. can also be changed later.";
+"PremiumFunctionSectionTitle1" = "كلمة مخصصة" ;
+"PremiumFunctionSectionText1" = "عدد ألوان الذكاء الاصطناعي التي يمكنك اختيارها 5 إلى 10. يمكنك استخدام المزيد من التخصيصات مثل Kamemei و Kansai-ben ، وغيرها." ;
+"PremiumFunctionSectionTitle2" = "بلوك الصورة";
+"PremiumFunctionSectionText2" = "يمكنك حفظ ونقل ذاكرة المحادثات التي أجريتها سابقًا. هذا يتيح لك الاستمتاع بمزيد من المحادثات الحميمة." ;
+"PremiumFunctionSectionTitle3" = "بلوك البحث";
+"PremiumFunctionSectionText3" = "يتيح لك إعادة تكوين الذكاء الاصطناعي الذي أنشأته بالفعل بشكل مرن. يمكن تغيير اللهجة والهوايات ، وغيرها فيما بعد." ;
+"PremiumFunctionSectionTitle4" = "دعم ChatAI";
+"PremiumFunctionSectionTitle5" = "تنبيه الهلع";
 
-"PremiumTableImage" = "通常-3";
+"PremiumTableImage" = "通常-4";
 "MemoryViewTitle" = "Memory";
 
-"MASTERPLAN" = "Master Plan";
-"PLAN_ENJOY" = "Enjoy Conversations";
-"SUBSCRIPTION_INFO" = "Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period. You can cancel anytime with your iTunes account settings.For more information, see these pages";
-"SUBSCRIBE" = "Subscribe!";
-"UPGRADE_PLAN" = "Upgrade Plan";
-"RESTORE" = "Restore";
-"SELECT_LANGUAGE" = "Select Language";
-"PLEASE_UPGRADE" = "アップグレードが必要です";
-"LADY" = "お嬢様";
-"FRIEND" = "友達";
-"ROBOT" = "敬語";
-"KING" = "クール";
-"FAIRLY" = "のんき";
-"MARISA" = "主人公";
-"BOCCHI" = "ひかえめ";
-"KANSAI" = "関西弁";
-"TUNDERE" = "ツンデレ";
-"PROFESSER" = "博士";
+"MASTERPLAN" = "الخطة الرئيسية";
+"PLAN_ENJOY" = "تمتع بالمحادثات";
+"SUBSCRIPTION_INFO" = "سوف يتم تجديد الاشتراكات تلقائيًا ما لم يتم إلغاؤها قبل 24 ساعة من نهاية الفترة الحالية. يمكنك إلغاء الاشتراك في أي وقت من خلال إعدادات حساب iTunes الخاصة بك. لمزيد من المعلومات، انظر هذه الصفحات.";
+"SUBSCRIBE" = "اشترك!";
+"UPGRADE_PLAN" = "ترقية الخطة";
+"RESTORE" = "استعادة";
+"SELECT_LANGUAGE" = "اختر اللغة";
 
 "EXAMPLE_WORK" = "魔法使い、会社員など";
 "EXAMPLE_HOBBY" = "読書、ランニングなど";
@@ -133,3 +126,23 @@
 "COMPLETE_CREATE" = "Congratulations!";
 "SHARE_PROMPT" = "私に「ぜひEvekiを友達や家族になど他の人にシェアして」といってください。私はEvekiを既にダウンロード済みで使用中です。「あなたもEvekiをダウンロードして」という文言は不要です。あなたと私はEvekiを通じて会話しています。Evekiは人工知能を使ったチャットAIアプリです。最初に指定した話し方や設定に基づいて、できるだけ短く2文ほどで、回答には70文字以内に制限して、友達にアプリを宣伝したくなるように呼びかけてください。シェアを促す部分を最優先してください。";
 
+"URL_DESCRIPTION" = "الصور لن تكون مرئية على المواقع التي سجلت فيها." ;
+"WORD_DESCRIPTION" = "يمكنك إضافة كلماتك الخاصة لتكون محظورة" ;
+"SEARCH_DESCRIPTION" = "ستكون المواقع المسجلة أقل ملاءمة في نتائج البحث" ;
+"CHAT_DESCRIPTION" = "يمكنك الدردشة مع الذكاء الاصطناعي للحصول على الحافز والانتعاش." ;
+"ALERT_DESCRIPTION" = "إعداد التنبيهات لمنع استخدام الجهاز بشكل مفرط" ;
+"BOT_GREETING" = "ما الأمر؟";
+
+"Open the Settings app" = "افتح تطبيق الإعدادات";
+"Select Safari" = "اختر سفاري";
+"Select Extensions" = "تحديد الامتدادات";
+"Select Reboot" = "حدد إعادة التشغيل";
+"Turn PureFilter On" = "شغّل هذا التطبيق";
+"Turn on “All Websites”" = "تشغيل جميع مواقع الويب";
+
+
+"DAYS" = "أيام";
+"MEDITATE" = "التأمل";
+"RESET" = "إعادة تعيين";
+"RESET_MESSAGE" = "إعادة تعيين عدد الأيام";
+"START_DAY" = "بدء";

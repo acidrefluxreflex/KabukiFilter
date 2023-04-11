@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HelpSection: View {
     var body: some View {
-        Text("Help")
+        HelpView()
     }
 }
 

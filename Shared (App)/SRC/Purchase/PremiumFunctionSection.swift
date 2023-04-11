@@ -15,20 +15,24 @@ struct PremiumFunctionSection: View {
         VStack(alignment: .leading) {
             PremiumFunctionCell(
                 title: lc.text(.PremiumFunctionSectionTitle1),
-                text: lc.text(.WordDescription))
+                text: lc.text(.WordDescription),
+                systemName: "textformat")
             PremiumFunctionCell(
                 title: lc.text(.PremiumFunctionSectionTitle2),
-                text: lc.text(.URLDescription))
+                text: lc.text(.URLDescription),
+                systemName: "photo")
             PremiumFunctionCell(
                 title: lc.text(.PremiumFunctionSectionTitle3),
-                text: lc.text(.SearchDescription))
+                text: lc.text(.SearchDescription),
+                systemName: "magnifyingglass")
             PremiumFunctionCell(
                 title: lc.text(.PremiumFunctionSectionTitle3),
-                text: lc.text(.ChatDescription))
+                text: lc.text(.ChatDescription),
+                systemName: "exclamationmark.triangle")
             PremiumFunctionCell(
                 title: lc.text(.PremiumFunctionSectionTitle3),
-                text: lc.text(.AlertDescription))
-
+                text: lc.text(.AlertDescription),
+                systemName: "smiley")
         }
     }
 

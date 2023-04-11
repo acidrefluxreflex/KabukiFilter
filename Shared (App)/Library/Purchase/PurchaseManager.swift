@@ -37,7 +37,7 @@ class PaymentModel: ObservableObject {
      let defaultsKey = "Purchase"
     private let litePlanID: String = "LitePlan_Monthly"
     private let proPlanID: String = "ProPlan_Monthly"
-    private let productId: String = "Master_Monthly"
+    private let productId: String = "master_monthly_pure"
     @Published var userPurchases = [String: Bool]()
 
     private let constants = Constants()
@@ -50,6 +50,7 @@ class PaymentModel: ObservableObject {
                 if let error = error {
                     // エラーが発生した場合はログに出力する
                     print(error.localizedDescription)
+                    print("👩‍🦱")
                     return
                 }
                 

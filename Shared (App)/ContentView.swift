@@ -11,11 +11,13 @@ struct ContentView: View {
     
     @State private var selection: Int = 0
     
+    private let lc = LocalizeCodes()
+    
     private let dic: [Int: String] = [
-          0: "Home",
-          1: "Custom",
-          2: "Meditate",
-          3: "Setting",
+          0: "HOME".localized,
+          1: "CUSTOM".localized,
+          2: "MEDITATE".localized,
+          3: "SETTING".localized,
       ]
 
     
@@ -26,29 +28,29 @@ struct ContentView: View {
                 HomeView()
                     .tabItem {
                         iconItem(
-                            title: "Home",
+                            title: lc.text(.Home).localized,
                             icon: "house")
                     }.tag(0)
                 
                 CustomView().tabItem {
                     iconItem(
-                        title: "Custom",
+                        title: lc.text(.Custom),
                         icon: "wrench.and.screwdriver.fill")
                 }.tag(1)
                 
                 MeditateView().tabItem {
                     iconItem(
-                        title: "Meditate",
+                        title: lc.text(.Meditate),
                         icon: "heart.fill")
                 }.tag(2)
                 
                 SettingView().tabItem {
                     iconItem(
-                        title: "Setting",
+                        title: lc.text(.Setting),
                         icon: "gearshape")
                 }.tag(3)
                 
-            }.navigationBarTitle(dic[selection] ?? "Home")
+            }.navigationBarTitle(dic[selection]?.localized ?? "Home")
         }
     }
     

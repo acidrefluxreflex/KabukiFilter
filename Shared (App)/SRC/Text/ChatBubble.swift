@@ -69,9 +69,9 @@ struct ChatBubble: View {
             case .loading:
                 HStack(alignment: .bottom) {
                     Group {
-                        Image(systemName: "")
+                        LoadingBalls(color: .white)
                      
-                        
+                            .bold()
                             .padding(.vertical, 15)
                             .padding(.horizontal, 5)
                             .foregroundColor(Color.white)

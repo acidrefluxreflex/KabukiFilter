@@ -278,6 +278,16 @@ case PleaseUpgrade = "PLEASE_UPGRADE"
         case SearchDescription = "SEARCH_DESCRIPTION"
         case ChatDescription = "CHAT_DESCRIPTION"
         case AlertDescription = "ALERT_DESCRIPTION"
+
+        case BotGreeting = "BOT_GREETING"
+        
+        case Days = "DAYS"
+        
+        case Custom = "CUSTOM"
+        case Meditate = "MEDITATE"
+        case Reset = "RESET"
+        case ResetMessage = "RESET_MESSAGE"
+        case StartDay = "START_DAY"
     }
 
     func text(_ code: Code) -> String {

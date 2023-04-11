@@ -22,7 +22,7 @@ port.onMessage.addListener((message) => {
     });
 });
 
-port.onDisconnect.addListener(function(disconnectedPort) {});
+//port.onDisconnect.addListener(function(disconnectedPort) {});
 
 browser.runtime.onMessage.addListener(m => {
     if( m === 'need_damp_whitelist' ) {

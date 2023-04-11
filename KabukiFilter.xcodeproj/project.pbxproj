@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D2F2FFD29D9042500A5F60C /* LoadingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F2FFC29D9042500A5F60C /* LoadingDots.swift */; };
+		6D2F300029D9255D00A5F60C /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2F2FFF29D9255D00A5F60C /* RevenueCat */; };
+		6D2F300229D92D7000A5F60C /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F300129D92D7000A5F60C /* HelpView.swift */; };
+		6D2F300429D92DFD00A5F60C /* helpMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F300329D92DFD00A5F60C /* helpMovie.swift */; };
+		6D2F300629D9389100A5F60C /* helpMovie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F300529D9389100A5F60C /* helpMovie.mp4 */; };
 		6D5F3FC52724470700B5004E /* VolorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3FC42724470700B5004E /* VolorSample.swift */; };
 		6D5F3FC827244A2800B5004E /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = 6D5F3FC727244A2800B5004E /* DynamicColor */; };
 		6D7FF87427264C490057249A /* ColorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7FF87327264C490057249A /* ColorSample.swift */; };
@@ -162,8 +167,6 @@
 		6DA9D24529D7E6B80006999A /* PanicAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9D24429D7E6B80006999A /* PanicAlertManager.swift */; };
 		6DA9D24629D7E6B80006999A /* PanicAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9D24429D7E6B80006999A /* PanicAlertManager.swift */; };
 		6DA9D24729D7E6D00006999A /* PanicAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9D24429D7E6B80006999A /* PanicAlertManager.swift */; };
-		6DA9D24E29D812D20006999A /* ReceiptParser in Frameworks */ = {isa = PBXBuildFile; productRef = 6DA9D24D29D812D20006999A /* ReceiptParser */; };
-		6DA9D25029D812D20006999A /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 6DA9D24F29D812D20006999A /* RevenueCat */; };
 		6DA9D25129D813670006999A /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9D24929D811F80006999A /* PurchaseManager.swift */; };
 		6DA9D25729D813BD0006999A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9D25329D813860006999A /* Constants.swift */; };
 		6DA9D26429D81A360006999A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9D26729D81A360006999A /* Localizable.strings */; };
@@ -180,6 +183,10 @@
 		6DA9D28229D81C4B0006999A /* PurchaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9D27A29D81C4B0006999A /* PurchaseButton.swift */; };
 		6DA9D28529D81E520006999A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9D28429D81E520006999A /* ActivityIndicator.swift */; };
 		6DA9D28629D872850006999A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9D26729D81A360006999A /* Localizable.strings */; };
+		6DFC281029D976C700C7CD24 /* PrivacyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC280F29D976C700C7CD24 /* PrivacyText.swift */; };
+		6DFC281129D976C700C7CD24 /* PrivacyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC280F29D976C700C7CD24 /* PrivacyText.swift */; };
+		6DFC281329D9B39F00C7CD24 /* DeleteAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC281229D9B39F00C7CD24 /* DeleteAccountButton.swift */; };
+		6DFC281429D9B39F00C7CD24 /* DeleteAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC281229D9B39F00C7CD24 /* DeleteAccountButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +232,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6D2F2FFC29D9042500A5F60C /* LoadingDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDots.swift; sourceTree = "<group>"; };
+		6D2F300129D92D7000A5F60C /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		6D2F300329D92DFD00A5F60C /* helpMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpMovie.swift; sourceTree = "<group>"; };
+		6D2F300529D9389100A5F60C /* helpMovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = helpMovie.mp4; sourceTree = "<group>"; };
 		6D5F3FC42724470700B5004E /* VolorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolorSample.swift; sourceTree = "<group>"; };
 		6D7FF87327264C490057249A /* ColorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSample.swift; sourceTree = "<group>"; };
 		6D8B2ADC27251F21005AA3FE /* TabSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSample.swift; sourceTree = "<group>"; };
@@ -325,6 +336,8 @@
 		6DA9D27929D81C4B0006999A /* PremiumFunctionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PremiumFunctionCell.swift; sourceTree = "<group>"; };
 		6DA9D27A29D81C4B0006999A /* PurchaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseButton.swift; sourceTree = "<group>"; };
 		6DA9D28429D81E520006999A /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		6DFC280F29D976C700C7CD24 /* PrivacyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyText.swift; sourceTree = "<group>"; };
+		6DFC281229D9B39F00C7CD24 /* DeleteAccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -342,10 +355,9 @@
 				6DA9D13329D57C420006999A /* GoogleSignInSwift in Frameworks */,
 				6DA9D13129D57C420006999A /* GoogleSignIn in Frameworks */,
 				6DA9D12E29D57BF80006999A /* Alamofire in Frameworks */,
-				6DA9D24E29D812D20006999A /* ReceiptParser in Frameworks */,
 				6DA9D12B29D57BC20006999A /* FirebaseFirestoreSwift in Frameworks */,
 				6DA9D11D29D57BC20006999A /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
-				6DA9D25029D812D20006999A /* RevenueCat in Frameworks */,
+				6D2F300029D9255D00A5F60C /* RevenueCat in Frameworks */,
 				6DA9D12729D57BC20006999A /* FirebaseFirestore in Frameworks */,
 				6DA9D12529D57BC20006999A /* FirebaseAuthCombine-Community in Frameworks */,
 				6D5F3FC827244A2800B5004E /* DynamicColor in Frameworks */,
@@ -500,6 +512,8 @@
 			isa = PBXGroup;
 			children = (
 				6DA9D13829D57D430006999A /* TutorialView.swift */,
+				6DFC280F29D976C700C7CD24 /* PrivacyText.swift */,
+				6D2F300129D92D7000A5F60C /* HelpView.swift */,
 				6DA9D1C329D6B6200006999A /* Meditate */,
 				6DA9D1C229D6B5EA0006999A /* Custom */,
 				6DA9D1C129D6B5B80006999A /* Home */,
@@ -518,6 +532,9 @@
 				6DA9D26929D81B0D0006999A /* Button */,
 				6DA9D25929D8172C0006999A /* Text */,
 				6DA9D25829D817140006999A /* Model */,
+				6D2F300329D92DFD00A5F60C /* helpMovie.swift */,
+				6D2F300529D9389100A5F60C /* helpMovie.mp4 */,
+				6DFC281229D9B39F00C7CD24 /* DeleteAccountButton.swift */,
 			);
 			path = SRC;
 			sourceTree = "<group>";
@@ -657,6 +674,7 @@
 			isa = PBXGroup;
 			children = (
 				6DA9D28429D81E520006999A /* ActivityIndicator.swift */,
+				6D2F2FFC29D9042500A5F60C /* LoadingDots.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -694,9 +712,8 @@
 				6DA9D13029D57C420006999A /* GoogleSignIn */,
 				6DA9D13229D57C420006999A /* GoogleSignInSwift */,
 				6DA9D13529D57C850006999A /* SwiftyChat */,
-				6DA9D24D29D812D20006999A /* ReceiptParser */,
-				6DA9D24F29D812D20006999A /* RevenueCat */,
 				6DA9D27029D81BDD0006999A /* IrregularGradient */,
+				6D2F2FFF29D9255D00A5F60C /* RevenueCat */,
 			);
 			productName = "KabukiFilter (iOS)";
 			productReference = 6DA3E910271961FD00C269EA /* KabukiFilter.app */;
@@ -795,8 +812,8 @@
 				6DA9D12C29D57BF80006999A /* XCRemoteSwiftPackageReference "Alamofire" */,
 				6DA9D12F29D57C420006999A /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				6DA9D13429D57C850006999A /* XCRemoteSwiftPackageReference "SwiftyChat" */,
-				6DA9D24C29D812D10006999A /* XCRemoteSwiftPackageReference "purchases-ios" */,
 				6DA9D26F29D81BDD0006999A /* XCRemoteSwiftPackageReference "IrregularGradient" */,
+				6D2F2FFE29D9255D00A5F60C /* XCRemoteSwiftPackageReference "purchases-ios" */,
 			);
 			productRefGroup = 6DA3E911271961FD00C269EA /* Products */;
 			projectDirPath = "";
@@ -818,6 +835,7 @@
 				6DA3E941271961FD00C269EA /* Icon.png in Resources */,
 				6DA3E919271961FD00C269EA /* LaunchScreen.storyboard in Resources */,
 				6DA3E93F271961FD00C269EA /* Main.html in Resources */,
+				6D2F300629D9389100A5F60C /* helpMovie.mp4 in Resources */,
 				6DA3E945271961FD00C269EA /* Script.js in Resources */,
 				6DA9D28629D872850006999A /* Localizable.strings in Resources */,
 				6DA3E949271961FD00C269EA /* Assets.xcassets in Resources */,
@@ -908,6 +926,7 @@
 				6DA9D1A129D57D7F0006999A /* ViewExtension.swift in Sources */,
 				6DA3E947271961FD00C269EA /* ViewController.swift in Sources */,
 				6DA9D24729D7E6D00006999A /* PanicAlertManager.swift in Sources */,
+				6D2F2FFD29D9042500A5F60C /* LoadingDots.swift in Sources */,
 				6DA9D15D29D57D440006999A /* PanicView.swift in Sources */,
 				6DA9D1B129D57D7F0006999A /* Theme.swift in Sources */,
 				6DA9D28529D81E520006999A /* ActivityIndicator.swift in Sources */,
@@ -930,6 +949,7 @@
 				6DA9D17529D57D690006999A /* TimerController.swift in Sources */,
 				6D7FF87427264C490057249A /* ColorSample.swift in Sources */,
 				6DA9D17929D57D690006999A /* MessageModel.swift in Sources */,
+				6D2F300229D92D7000A5F60C /* HelpView.swift in Sources */,
 				6DA9D23D29D7B2240006999A /* TextButtonStyle.swift in Sources */,
 				6DA9D17F29D57D690006999A /* TimerView.swift in Sources */,
 				6DA9D25729D813BD0006999A /* Constants.swift in Sources */,
@@ -941,11 +961,14 @@
 				6DA9D27E29D81C4B0006999A /* PremiumPriceLabel.swift in Sources */,
 				6DA9D28229D81C4B0006999A /* PurchaseButton.swift in Sources */,
 				6DA9D17729D57D690006999A /* NewsContents.swift in Sources */,
+				6D2F300429D92DFD00A5F60C /* helpMovie.swift in Sources */,
 				6DA9D1B929D57E2E0006999A /* LoginManager.swift in Sources */,
+				6DFC281329D9B39F00C7CD24 /* DeleteAccountButton.swift in Sources */,
 				6DA9D18529D57D690006999A /* DaisyButtonStyle.swift in Sources */,
 				6DA9D16329D57D440006999A /* SelectionView.swift in Sources */,
 				6DA9D19B29D57D7F0006999A /* ArrayExtension.swift in Sources */,
 				6DA9D1AF29D57D7F0006999A /* UIImageExtension.swift in Sources */,
+				6DFC281029D976C700C7CD24 /* PrivacyText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -968,6 +991,7 @@
 				6DA9D1A429D57D7F0006999A /* BackgroundTaskManager.swift in Sources */,
 				6DA9D1BA29D57E2E0006999A /* LoginManager.swift in Sources */,
 				6DA9D1A229D57D7F0006999A /* ViewExtension.swift in Sources */,
+				6DFC281429D9B39F00C7CD24 /* DeleteAccountButton.swift in Sources */,
 				6DA9D19A29D57D7F0006999A /* LocalizeCodes.swift in Sources */,
 				6DA9D16229D57D440006999A /* SelectionView.swift in Sources */,
 				6DA9D1B029D57D7F0006999A /* UIImageExtension.swift in Sources */,
@@ -984,6 +1008,7 @@
 				6DA9D17C29D57D690006999A /* GoogleLoginButton.swift in Sources */,
 				6DA9D15029D57D440006999A /* SettingView.swift in Sources */,
 				6DA9D1B229D57D7F0006999A /* Theme.swift in Sources */,
+				6DFC281129D976C700C7CD24 /* PrivacyText.swift in Sources */,
 				6DA9D1A829D57D7F0006999A /* CodableExtension.swift in Sources */,
 				6DA9D26A29D81B270006999A /* TextButtonStyle.swift in Sources */,
 				6DA9D17629D57D690006999A /* TimerController.swift in Sources */,
@@ -1278,7 +1303,8 @@
 				DEVELOPMENT_TEAM = DR9P77GFSX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = KabukiFilter;
+				INFOPLIST_KEY_CFBundleDisplayName = "PureFilter ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1289,7 +1315,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.01;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -1317,7 +1343,8 @@
 				DEVELOPMENT_TEAM = DR9P77GFSX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = KabukiFilter;
+				INFOPLIST_KEY_CFBundleDisplayName = "PureFilter ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1328,7 +1355,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.01;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -1530,6 +1557,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		6D2F2FFE29D9255D00A5F60C /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.13.2;
+			};
+		};
 		6D5F3FC627244A2800B5004E /* XCRemoteSwiftPackageReference "DynamicColor" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/yannickl/DynamicColor";
@@ -1570,14 +1605,6 @@
 				kind = branch;
 			};
 		};
-		6DA9D24C29D812D10006999A /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
 		6DA9D26F29D81BDD0006999A /* XCRemoteSwiftPackageReference "IrregularGradient" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/joogps/IrregularGradient";
@@ -1589,6 +1616,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6D2F2FFF29D9255D00A5F60C /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D2F2FFE29D9255D00A5F60C /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
 		6D5F3FC727244A2800B5004E /* DynamicColor */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 6D5F3FC627244A2800B5004E /* XCRemoteSwiftPackageReference "DynamicColor" */;
@@ -1658,16 +1690,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6DA9D13429D57C850006999A /* XCRemoteSwiftPackageReference "SwiftyChat" */;
 			productName = SwiftyChat;
-		};
-		6DA9D24D29D812D20006999A /* ReceiptParser */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6DA9D24C29D812D10006999A /* XCRemoteSwiftPackageReference "purchases-ios" */;
-			productName = ReceiptParser;
-		};
-		6DA9D24F29D812D20006999A /* RevenueCat */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6DA9D24C29D812D10006999A /* XCRemoteSwiftPackageReference "purchases-ios" */;
-			productName = RevenueCat;
 		};
 		6DA9D27029D81BDD0006999A /* IrregularGradient */ = {
 			isa = XCSwiftPackageProductDependency;

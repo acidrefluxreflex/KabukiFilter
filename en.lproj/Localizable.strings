@@ -19,6 +19,8 @@
 "SEARCH" = "Search";
 "SETTING" = "Setting";
 "CONTACT" = "Contact";
+"CUSTOM" = "Custom";
+"RELAX" = "Relax";
 
 "Align QR code within frame to scan" = "Align QR Code within frame to scan";
 "Upload from photos" = "Upload from photos";
@@ -104,7 +106,7 @@
 "MemoryViewTitle" = "Memory";
 
 "MASTERPLAN" = "Master Plan";
-"PLAN_ENJOY" = "Enjoy Conversations";
+"PLAN_ENJOY" = "Enjoy Freedom";
 "SUBSCRIPTION_INFO" = "Subscriptions will automatically renew unless canceled within 24-hours before the end of the current period. You can cancel anytime with your iTunes account settings.For more information, see these pages";
 "SUBSCRIBE" = "Subscribe!";
 "UPGRADE_PLAN" = "Upgrade Plan";
@@ -138,3 +140,12 @@
 "SEARCH_DESCRIPTION" = "The registered sites will be less visible in the search results";
 "CHAT_DESCRIPTION" = "You can chat with AI for motivation and refreshment.";
 "ALERT_DESCRIPTION" = "Set up notifications to prevent yourself from abusing the device";
+"BOT_GREETING" = "What's up?";
+
+"DAYS" = "days";
+"MEDITATE" = "Meditate";
+"RESET" = "Reset";
+"RESET_MESSAGE" = "Resets the number of days";
+"START_DAY" = "Start";
+"Turn on “All Websites”" = "Turn on “All Websites”";
+"Turn PureFilter On" = "Turn PureFilter On";
