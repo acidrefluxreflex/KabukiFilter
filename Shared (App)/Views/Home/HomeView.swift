@@ -12,22 +12,35 @@ struct HomeView: View {
     private let lc = LocalizeCodes()
     
     var body: some View {
-
-            ScrollView {
-                TimerView()
-                    .padding(.horizontal)
-                /*
-                NewsSection()
-                 */
-               PremiumButton()
-                    .padding()
-                NavigationLink(destination: HelpSection()) {
-                    DaisyButtonStyle(text: lc.text(.Hint))
-                        .padding()
+        
+        ScrollView {
+            HStack {
+                NavigationLink(destination: HelpView()) {
+                    DaisyButtonStyle(color: .accentColor,
+                                     text: lc.text(.Hint),
+                                     systemName: "questionmark.circle",
+                                     type: .left)
+                    .padding(.trailing, 5)
                 }
-                Spacer()
-            }
-
+                NavigationLink(destination: FeedbackView()) {
+                    DaisyButtonStyle(color: .accentColor,
+                                     text: lc.text(.Contact),
+                                     systemName: "envelope",
+                                     type: .left)
+                    .padding(.leading, 5)
+                }
+            }.padding()
+            TimerView()
+                .padding(.horizontal)
+            
+            NewsView()
+            
+            PremiumButton()
+                .padding()
+            
+            Spacer()
+        }
+        
         
     }
     

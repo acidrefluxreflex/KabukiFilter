@@ -15,7 +15,7 @@ struct CustomView: View {
         
   
             List {
-        
+                linkSection()
                 if manager.isUserSubscribed {
                     linkSection()
                 } else {
@@ -25,6 +25,8 @@ struct CustomView: View {
                 manager.checkUserSubscribed()
             }
         
+        
+       
     }
     
     private func linkSection() -> some View{

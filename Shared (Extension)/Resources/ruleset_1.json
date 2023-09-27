@@ -188,18 +188,18 @@
     "condition": {
       "regexFilter": ".*porndude.*",
       "resourceTypes": [
-          "main_frame",
-                   "sub_frame",
-                   "stylesheet",
-                   "script",
-                   "image",
-                   "font",
-                   "object",
-                   "xmlhttprequest",
-                   "ping",
-                   "csp_report",
-                   "media",
-                   "websocket"
+        "main_frame",
+        "sub_frame",
+        "stylesheet",
+        "script",
+        "image",
+        "font",
+        "object",
+        "xmlhttprequest",
+        "ping",
+        "csp_report",
+        "media",
+        "websocket"
       ]
     }
   },
@@ -212,18 +212,18 @@
     "condition": {
       "regexFilter": ".*hentai.*",
       "resourceTypes": [
-          "main_frame",
-                   "sub_frame",
-                   "stylesheet",
-                   "script",
-                   "image",
-                   "font",
-                   "object",
-                   "xmlhttprequest",
-                   "ping",
-                   "csp_report",
-                   "media",
-                   "websocket"
+        "main_frame",
+        "sub_frame",
+        "stylesheet",
+        "script",
+        "image",
+        "font",
+        "object",
+        "xmlhttprequest",
+        "ping",
+        "csp_report",
+        "media",
+        "websocket"
       ]
     }
   },
@@ -236,18 +236,18 @@
     "condition": {
       "regexFilter": ".*javynow.*",
       "resourceTypes": [
-          "main_frame",
-                   "sub_frame",
-                   "stylesheet",
-                   "script",
-                   "image",
-                   "font",
-                   "object",
-                   "xmlhttprequest",
-                   "ping",
-                   "csp_report",
-                   "media",
-                   "websocket"
+        "main_frame",
+        "sub_frame",
+        "stylesheet",
+        "script",
+        "image",
+        "font",
+        "object",
+        "xmlhttprequest",
+        "ping",
+        "csp_report",
+        "media",
+        "websocket"
       ]
     }
   },
@@ -260,18 +260,18 @@
     "condition": {
       "regexFilter": ".*spankbang.*",
       "resourceTypes": [
-          "main_frame",
-                   "sub_frame",
-                   "stylesheet",
-                   "script",
-                   "image",
-                   "font",
-                   "object",
-                   "xmlhttprequest",
-                   "ping",
-                   "csp_report",
-                   "media",
-                   "websocket"
+        "main_frame",
+        "sub_frame",
+        "stylesheet",
+        "script",
+        "image",
+        "font",
+        "object",
+        "xmlhttprequest",
+        "ping",
+        "csp_report",
+        "media",
+        "websocket"
       ]
     }
   },

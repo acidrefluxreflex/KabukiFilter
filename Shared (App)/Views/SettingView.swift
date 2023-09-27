@@ -19,6 +19,9 @@ struct SettingView: View {
             NavigationLink("test")  {
                 ChatView()
             }
+            NavigationLink("first")  {
+                TutorialView()
+            }
             #endif
         }
     }
