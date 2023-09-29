@@ -19,6 +19,15 @@
       }
     },
     {
+      "identity" : "animatedtabbar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/exyte/AnimatedTabBar",
+      "state" : {
+        "revision" : "5a80cd90f6a774de89ec5c16116a43819186ac6c",
+        "version" : "0.0.2"
+      }
+    },
+    {
       "identity" : "appauth-ios",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/openid/AppAuth-iOS.git",

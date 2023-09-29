@@ -18,6 +18,13 @@
 		6D5F3DBF2AC6806300964150 /* LargeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DBD2AC6806300964150 /* LargeButtonStyle.swift */; };
 		6D5F3DC12AC6827C00964150 /* CircleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DC02AC6827C00964150 /* CircleButtonStyle.swift */; };
 		6D5F3DC22AC6827C00964150 /* CircleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DC02AC6827C00964150 /* CircleButtonStyle.swift */; };
+		6D5F3DCE2AC68EEF00964150 /* AnimatedTabBar in Frameworks */ = {isa = PBXBuildFile; productRef = 6D5F3DCD2AC68EEF00964150 /* AnimatedTabBar */; };
+		6D5F3DD12AC690F500964150 /* ATBButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DD02AC690F500964150 /* ATBButtons.swift */; };
+		6D5F3DD22AC690F500964150 /* ATBButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DD02AC690F500964150 /* ATBButtons.swift */; };
+		6D5F3DD42AC6911200964150 /* ATBExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DD32AC6911200964150 /* ATBExample.swift */; };
+		6D5F3DD52AC6911200964150 /* ATBExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DD32AC6911200964150 /* ATBExample.swift */; };
+		6D5F3DD72AC694AD00964150 /* ATBCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DD62AC694AC00964150 /* ATBCustom.swift */; };
+		6D5F3DD82AC694AD00964150 /* ATBCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DD62AC694AC00964150 /* ATBCustom.swift */; };
 		6D5F3FC52724470700B5004E /* VolorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3FC42724470700B5004E /* VolorSample.swift */; };
 		6D5F3FC827244A2800B5004E /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = 6D5F3FC727244A2800B5004E /* DynamicColor */; };
 		6D6F552C29ED3BC700DA42A4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F552B29ED3BC700DA42A4 /* NewsViewController.swift */; };
@@ -258,6 +265,9 @@
 		6D5F3DBA2AC5170500964150 /* ViewTopLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTopLayer.swift; sourceTree = "<group>"; };
 		6D5F3DBD2AC6806300964150 /* LargeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButtonStyle.swift; sourceTree = "<group>"; };
 		6D5F3DC02AC6827C00964150 /* CircleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonStyle.swift; sourceTree = "<group>"; };
+		6D5F3DD02AC690F500964150 /* ATBButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATBButtons.swift; sourceTree = "<group>"; };
+		6D5F3DD32AC6911200964150 /* ATBExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATBExample.swift; sourceTree = "<group>"; };
+		6D5F3DD62AC694AC00964150 /* ATBCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATBCustom.swift; sourceTree = "<group>"; };
 		6D5F3FC42724470700B5004E /* VolorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolorSample.swift; sourceTree = "<group>"; };
 		6D6F552B29ED3BC700DA42A4 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		6D6F552E29ED3D6A00DA42A4 /* NewsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsImage.swift; sourceTree = "<group>"; };
@@ -399,6 +409,7 @@
 				6D2F300029D9255D00A5F60C /* RevenueCat in Frameworks */,
 				6DA9D12729D57BC20006999A /* FirebaseFirestore in Frameworks */,
 				6DA9D12529D57BC20006999A /* FirebaseAuthCombine-Community in Frameworks */,
+				6D5F3DCE2AC68EEF00964150 /* AnimatedTabBar in Frameworks */,
 				6D5F3FC827244A2800B5004E /* DynamicColor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +438,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D5F3DCF2AC690D900964150 /* AnimatedTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6D5F3DD02AC690F500964150 /* ATBButtons.swift */,
+				6D5F3DD32AC6911200964150 /* ATBExample.swift */,
+				6D5F3DD62AC694AC00964150 /* ATBCustom.swift */,
+			);
+			path = AnimatedTabBar;
+			sourceTree = "<group>";
+		};
 		6DA3E8F3271961FA00C269EA = {
 			isa = PBXGroup;
 			children = (
@@ -642,6 +663,7 @@
 		6DA9D23929D725DC0006999A /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				6D5F3DCF2AC690D900964150 /* AnimatedTabBar */,
 				6DA9D24829D811B60006999A /* Purchase */,
 				6DA9D1B529D57E240006999A /* AuthController.swift */,
 				6D829A2A29ECC5BE0098B987 /* FireStoreRepositry.swift */,
@@ -763,6 +785,7 @@
 				6DA9D13529D57C850006999A /* SwiftyChat */,
 				6DA9D27029D81BDD0006999A /* IrregularGradient */,
 				6D2F2FFF29D9255D00A5F60C /* RevenueCat */,
+				6D5F3DCD2AC68EEF00964150 /* AnimatedTabBar */,
 			);
 			productName = "KabukiFilter (iOS)";
 			productReference = 6DA3E910271961FD00C269EA /* KabukiFilter.app */;
@@ -865,6 +888,7 @@
 				6DA9D13429D57C850006999A /* XCRemoteSwiftPackageReference "SwiftyChat" */,
 				6DA9D26F29D81BDD0006999A /* XCRemoteSwiftPackageReference "IrregularGradient" */,
 				6D2F2FFE29D9255D00A5F60C /* XCRemoteSwiftPackageReference "purchases-ios" */,
+				6D5F3DCC2AC68EEF00964150 /* XCRemoteSwiftPackageReference "AnimatedTabBar" */,
 			);
 			productRefGroup = 6DA3E911271961FD00C269EA /* Products */;
 			projectDirPath = "";
@@ -986,6 +1010,7 @@
 				6DA9D18729D57D690006999A /* NewsModel.swift in Sources */,
 				6DA9D14B29D57D440006999A /* HelpSection.swift in Sources */,
 				6D6F552F29ED3D6A00DA42A4 /* NewsImage.swift in Sources */,
+				6D5F3DD42AC6911200964150 /* ATBExample.swift in Sources */,
 				6DA9D15329D57D440006999A /* PurchaseView.swift in Sources */,
 				6DA9D10D29D57B2D0006999A /* BlockApp.swift in Sources */,
 				6DA9D19F29D57D7F0006999A /* ColorExtension.swift in Sources */,
@@ -1014,8 +1039,10 @@
 				6DA9D19D29D57D7F0006999A /* TabViewExtension.swift in Sources */,
 				6D5F3DBE2AC6806300964150 /* LargeButtonStyle.swift in Sources */,
 				6DA9D28029D81C4B0006999A /* PremiumTableImage.swift in Sources */,
+				6D5F3DD72AC694AD00964150 /* ATBCustom.swift in Sources */,
 				6DECE8E629ED4A9000F4BCEB /* FeedbackStar.swift in Sources */,
 				6DA9D27B29D81C4B0006999A /* PremiumButton.swift in Sources */,
+				6D5F3DD12AC690F500964150 /* ATBButtons.swift in Sources */,
 				6DA9D27E29D81C4B0006999A /* PremiumPriceLabel.swift in Sources */,
 				6DA9D28229D81C4B0006999A /* PurchaseButton.swift in Sources */,
 				6DBA9C4129EE6D05007C8B14 /* RolingAnimation.swift in Sources */,
@@ -1039,6 +1066,7 @@
 			files = (
 				6DA3E948271961FD00C269EA /* ViewController.swift in Sources */,
 				6DA9D1A629D57D7F0006999A /* CustomRounded.swift in Sources */,
+				6D5F3DD52AC6911200964150 /* ATBExample.swift in Sources */,
 				6DA9D19C29D57D7F0006999A /* ArrayExtension.swift in Sources */,
 				6D5F3DC22AC6827C00964150 /* CircleButtonStyle.swift in Sources */,
 				6DECE8E429ED4A6300F4BCEB /* FeedbackModel.swift in Sources */,
@@ -1066,9 +1094,11 @@
 				6DA9D15E29D57D440006999A /* MeditateView.swift in Sources */,
 				6DA9D18029D57D690006999A /* TimerView.swift in Sources */,
 				6DA9D16629D57D440006999A /* TutorialView.swift in Sources */,
+				6D5F3DD82AC694AD00964150 /* ATBCustom.swift in Sources */,
 				6DA9D1B729D57E250006999A /* AuthController.swift in Sources */,
 				6DA9D15229D57D440006999A /* PurchaseView.swift in Sources */,
 				6DA9D16029D57D440006999A /* WordSection.swift in Sources */,
+				6D5F3DD22AC690F500964150 /* ATBButtons.swift in Sources */,
 				6DA9D15629D57D440006999A /* ChatView.swift in Sources */,
 				6DECE8EA29ED4AFA00F4BCEB /* FeedbackView.swift in Sources */,
 				6DA9D18229D57D690006999A /* DaisyTextField.swift in Sources */,
@@ -1645,6 +1675,14 @@
 				version = 4.13.2;
 			};
 		};
+		6D5F3DCC2AC68EEF00964150 /* XCRemoteSwiftPackageReference "AnimatedTabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/AnimatedTabBar";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.2;
+			};
+		};
 		6D5F3FC627244A2800B5004E /* XCRemoteSwiftPackageReference "DynamicColor" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/yannickl/DynamicColor";
@@ -1700,6 +1738,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6D2F2FFE29D9255D00A5F60C /* XCRemoteSwiftPackageReference "purchases-ios" */;
 			productName = RevenueCat;
+		};
+		6D5F3DCD2AC68EEF00964150 /* AnimatedTabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D5F3DCC2AC68EEF00964150 /* XCRemoteSwiftPackageReference "AnimatedTabBar" */;
+			productName = AnimatedTabBar;
 		};
 		6D5F3FC727244A2800B5004E /* DynamicColor */ = {
 			isa = XCSwiftPackageProductDependency;

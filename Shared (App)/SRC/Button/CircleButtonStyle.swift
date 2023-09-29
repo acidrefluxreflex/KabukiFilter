@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct CircleButtonStyle: View {
-    
+
     @State private var color: Color
     @State private var text: String
     @State private var systemName: String
-   
+
     private let size: CGFloat = 65
 
     init(
@@ -24,8 +24,7 @@ struct CircleButtonStyle: View {
         self.text = text
         self.systemName = systemName
     }
-    
-    
+
     var body: some View {
         VStack {
             Image(systemName: systemName)
