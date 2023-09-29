@@ -26,7 +26,7 @@ struct TimerView: View {
         ZStack {
 
             Rectangle()
-                .irregularGradient(colors: [zenGreen, zenBlue], background: Color(hex: "#939650"))
+                .irregularGradient(colors: [zenGreen, zenBlue], background: Color(hex: "125115"))
                 .shadow(radius: 5)
 
             VStack {
@@ -108,6 +108,7 @@ struct TimerView: View {
                 .background(
                     RoundedRectangle(cornerRadius: 10)
                         .foregroundColor(.theme(.ThemeGray))
+                        .opacity(0.8)
                 )
                 .foregroundColor(.accentColor)
 
@@ -171,12 +172,11 @@ struct TimerView: View {
     }
 
     private func upDateStreakDays() {
-
+        startDate = tracker.startDate
         streak = tracker.streak
         if lc.text(.Language) == "Arabic" {
             let numberFormatter = NumberFormatter()
             numberFormatter.locale = Locale(identifier: "ar")  // アラビア語ロケールを指定
-            let number = numberFormatter.number(from: "1234")
             let arabicNumber = numberFormatter.string(from: streak as NSNumber)
             streakString = arabicNumber!.description
         } else {

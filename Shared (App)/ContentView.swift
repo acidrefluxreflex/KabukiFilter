@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import AnimatedTabBar
+
 
 struct ContentView: View {
     
     @State private var selection: Int = 0
     
     private let lc = LocalizeCodes()
+    
+    private let names = ["house", "wrench.and.screwdriver", "drop", "heart", "gearshape"]
+    
+    @State var views: [AnyView] = [
+        AnyView(HomeView()), AnyView(CustomView()), AnyView(MeditateView()), AnyView(SettingView()),
+    ]
     
     private let dic: [Int: String] = [
           0: "HOME".localized,
@@ -23,41 +31,64 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            TabView(selection: $selection) {
-                
-                HomeView()
-                    .tabItem {
-                        iconItem(
-                            title: lc.text(.Home).localized,
-                            icon: "house")
-                    }.tag(0)
-                
-                CustomView().tabItem {
-                    iconItem(
-                        title: lc.text(.Custom),
-                        icon: "wrench.and.screwdriver.fill")
-                }.tag(1)
-                
-                MeditateView().tabItem {
-                    iconItem(
-                        title: lc.text(.Meditate),
-                        icon: "heart.fill")
-                }.tag(2)
-                
-                SettingView().tabItem {
-                    iconItem(
-                        title: lc.text(.Setting),
-                        icon: "gearshape")
-                }.tag(3)
-                
+
+            ZStack {
+
+                views[selection]
+
+                VStack {
+                    Spacer()
+                    AnimatedTabBar(selectedIndex: $selection) {
+
+                        customDropletButtonAt(0)
+
+                        customDropletButtonAt(1)
+
+                        customDropletButtonAt(2)
+
+                        customDropletButtonAt(3)
+
+                    }.cornerRadius(16)
+                        .barColor(
+                            changeBarColor(selection)
+                        )
+                        .selectedColor(.gray.opacity(0.6))
+                        .unselectedColor(.gray.opacity(0.6))
+                        .ballColor(.accentColor)
+                        .ballTrajectory(.straight)
+                        
+                        .verticalPadding(15)
+                        .padding()
+                }
             }
         }
+        
+        
     }
     
     private func iconItem(title: String, icon: String) -> some View {
         VStack {
             Text(title)
             Image(systemName: icon)
+        }
+    }
+    
+    
+    func customDropletButtonAt(_ index: Int) -> some View {
+        CustomDropletButton(
+            image:
+                Image(systemName: names[index] + ".fill"),
+            title: "test",
+            dropletColor: .accentColor,
+            isSelected: selection == index)
+    }
+    
+    
+    func changeBarColor(_ index: Int) -> Color {
+        if index == 0 {
+            return .theme(.ThemeGray)
+        } else {
+            return .white
         }
     }
 }

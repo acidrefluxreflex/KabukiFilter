@@ -87,11 +87,11 @@ struct CustomDropletButtonAnimatable: View, Animatable {
     public var body: some View {
         ZStack {
             image
-                .font(.title)
+                .font(.title3)
             CustomDroplet(t: dropletParam)
                 .mask(
                     t > 0.5
-                        ? AnyView(image.font(.title))
+                        ? AnyView(image.font(.title3))
                         : AnyView(Rectangle().frame(width: frame.width, height: frame.height))
                 )
                 .foregroundColor(dropletColor)
