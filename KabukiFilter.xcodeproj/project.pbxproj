@@ -12,6 +12,12 @@
 		6D2F300229D92D7000A5F60C /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F300129D92D7000A5F60C /* HelpView.swift */; };
 		6D2F300429D92DFD00A5F60C /* helpMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F300329D92DFD00A5F60C /* helpMovie.swift */; };
 		6D2F300629D9389100A5F60C /* helpMovie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F300529D9389100A5F60C /* helpMovie.mp4 */; };
+		6D5F3DBB2AC5170500964150 /* ViewTopLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DBA2AC5170500964150 /* ViewTopLayer.swift */; };
+		6D5F3DBC2AC5170500964150 /* ViewTopLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DBA2AC5170500964150 /* ViewTopLayer.swift */; };
+		6D5F3DBE2AC6806300964150 /* LargeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DBD2AC6806300964150 /* LargeButtonStyle.swift */; };
+		6D5F3DBF2AC6806300964150 /* LargeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DBD2AC6806300964150 /* LargeButtonStyle.swift */; };
+		6D5F3DC12AC6827C00964150 /* CircleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DC02AC6827C00964150 /* CircleButtonStyle.swift */; };
+		6D5F3DC22AC6827C00964150 /* CircleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DC02AC6827C00964150 /* CircleButtonStyle.swift */; };
 		6D5F3FC52724470700B5004E /* VolorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3FC42724470700B5004E /* VolorSample.swift */; };
 		6D5F3FC827244A2800B5004E /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = 6D5F3FC727244A2800B5004E /* DynamicColor */; };
 		6D6F552C29ED3BC700DA42A4 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F552B29ED3BC700DA42A4 /* NewsViewController.swift */; };
@@ -249,6 +255,9 @@
 		6D2F300129D92D7000A5F60C /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		6D2F300329D92DFD00A5F60C /* helpMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpMovie.swift; sourceTree = "<group>"; };
 		6D2F300529D9389100A5F60C /* helpMovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = helpMovie.mp4; sourceTree = "<group>"; };
+		6D5F3DBA2AC5170500964150 /* ViewTopLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTopLayer.swift; sourceTree = "<group>"; };
+		6D5F3DBD2AC6806300964150 /* LargeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButtonStyle.swift; sourceTree = "<group>"; };
+		6D5F3DC02AC6827C00964150 /* CircleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonStyle.swift; sourceTree = "<group>"; };
 		6D5F3FC42724470700B5004E /* VolorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolorSample.swift; sourceTree = "<group>"; };
 		6D6F552B29ED3BC700DA42A4 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		6D6F552E29ED3D6A00DA42A4 /* NewsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsImage.swift; sourceTree = "<group>"; };
@@ -567,6 +576,7 @@
 				6DFC281229D9B39F00C7CD24 /* DeleteAccountButton.swift */,
 				6D6F552E29ED3D6A00DA42A4 /* NewsImage.swift */,
 				6DECE8E529ED4A9000F4BCEB /* FeedbackStar.swift */,
+				6D5F3DBA2AC5170500964150 /* ViewTopLayer.swift */,
 			);
 			path = SRC;
 			sourceTree = "<group>";
@@ -687,6 +697,8 @@
 				6DA9D17229D57D690006999A /* DaisyButtonStyle.swift */,
 				6DA9D16E29D57D690006999A /* AppleLoginButton.swift */,
 				6DA9D16D29D57D690006999A /* GoogleLoginButton.swift */,
+				6D5F3DBD2AC6806300964150 /* LargeButtonStyle.swift */,
+				6D5F3DC02AC6827C00964150 /* CircleButtonStyle.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -984,6 +996,7 @@
 				6DA9D18129D57D690006999A /* DaisyTextField.swift in Sources */,
 				6DA9D17B29D57D690006999A /* GoogleLoginButton.swift in Sources */,
 				6DA9D19929D57D7F0006999A /* LocalizeCodes.swift in Sources */,
+				6D5F3DBB2AC5170500964150 /* ViewTopLayer.swift in Sources */,
 				6DA9D1B629D57E250006999A /* AuthController.swift in Sources */,
 				6DA3E916271961FD00C269EA /* SceneDelegate.swift in Sources */,
 				6DA9D14929D57D440006999A /* SearchFilterSection.swift in Sources */,
@@ -999,6 +1012,7 @@
 				6DA9D16929D57D440006999A /* URLSection.swift in Sources */,
 				6DA9D1AB29D57D7F0006999A /* TextExtension.swift in Sources */,
 				6DA9D19D29D57D7F0006999A /* TabViewExtension.swift in Sources */,
+				6D5F3DBE2AC6806300964150 /* LargeButtonStyle.swift in Sources */,
 				6DA9D28029D81C4B0006999A /* PremiumTableImage.swift in Sources */,
 				6DECE8E629ED4A9000F4BCEB /* FeedbackStar.swift in Sources */,
 				6DA9D27B29D81C4B0006999A /* PremiumButton.swift in Sources */,
@@ -1012,6 +1026,7 @@
 				6DFC281329D9B39F00C7CD24 /* DeleteAccountButton.swift in Sources */,
 				6DA9D18529D57D690006999A /* DaisyButtonStyle.swift in Sources */,
 				6DA9D16329D57D440006999A /* SelectionView.swift in Sources */,
+				6D5F3DC12AC6827C00964150 /* CircleButtonStyle.swift in Sources */,
 				6DA9D19B29D57D7F0006999A /* ArrayExtension.swift in Sources */,
 				6DA9D1AF29D57D7F0006999A /* UIImageExtension.swift in Sources */,
 				6DFC281029D976C700C7CD24 /* PrivacyText.swift in Sources */,
@@ -1025,6 +1040,7 @@
 				6DA3E948271961FD00C269EA /* ViewController.swift in Sources */,
 				6DA9D1A629D57D7F0006999A /* CustomRounded.swift in Sources */,
 				6DA9D19C29D57D7F0006999A /* ArrayExtension.swift in Sources */,
+				6D5F3DC22AC6827C00964150 /* CircleButtonStyle.swift in Sources */,
 				6DECE8E429ED4A6300F4BCEB /* FeedbackModel.swift in Sources */,
 				6DA9D10E29D57B2D0006999A /* BlockApp.swift in Sources */,
 				6DA9D1A029D57D7F0006999A /* ColorExtension.swift in Sources */,
@@ -1046,6 +1062,7 @@
 				6DA9D1B029D57D7F0006999A /* UIImageExtension.swift in Sources */,
 				6DA9D17E29D57D690006999A /* AppleLoginButton.swift in Sources */,
 				6DA9D16429D57D440006999A /* NewsSection.swift in Sources */,
+				6D5F3DBC2AC5170500964150 /* ViewTopLayer.swift in Sources */,
 				6DA9D15E29D57D440006999A /* MeditateView.swift in Sources */,
 				6DA9D18029D57D690006999A /* TimerView.swift in Sources */,
 				6DA9D16629D57D440006999A /* TutorialView.swift in Sources */,
@@ -1067,6 +1084,7 @@
 				6DA9D18829D57D690006999A /* NewsModel.swift in Sources */,
 				6DA9D15429D57D440006999A /* HomeView.swift in Sources */,
 				6DA9D16829D57D440006999A /* URLSection.swift in Sources */,
+				6D5F3DBF2AC6806300964150 /* LargeButtonStyle.swift in Sources */,
 				6DA9D11029D57B2D0006999A /* ContentView.swift in Sources */,
 				6DA9D14E29D57D440006999A /* RowCustomView.swift in Sources */,
 				6DA9D18429D57D690006999A /* ChatBubble.swift in Sources */,

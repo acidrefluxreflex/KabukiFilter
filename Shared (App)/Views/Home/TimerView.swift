@@ -7,102 +7,189 @@
 
 import SwiftUI
 
-
 struct TimerView: View {
+
     @State private var startDate = Date()
     @State private var daysElapsed = 0
-    @State private var showingAlert = false
-    @StateObject private var controller = TimerController()
+    @State var streak = 0
+    @State var streakString = "0"
+    @State private var startAlert = false
+    @State private var resetAlert = false
+
+    @StateObject private var tracker = ActivityTracker()
     private let lc = LocalizeCodes()
-    
+
+    private let zenGreen = Color(hex: "#838A2D")
+    private let zenBlue = Color(hex: "#7BA23F")
+
     var body: some View {
         ZStack {
-           RoundedRectangle(cornerRadius: 8)
-                .stroke(.secondary, lineWidth: 1)
+
+            Rectangle()
+                .irregularGradient(colors: [zenGreen, zenBlue], background: Color(hex: "#939650"))
+                .shadow(radius: 5)
+
             VStack {
-                Text(localizedDays() + " " +  lc.text(.Days))
-                    .bold()
-                    .font(.largeTitle)
-                    .padding()
-                resetButton()
-                startDatePicker()
+                if tracker.isTracking {
+                    startedView()
+                        .transition(.scale)
+
+                } else {
+                    setUpView()
+                        .transition(.identity)
+                }
+            }.foregroundColor(.white)
+        }.frame(height: 250)
+            .onAppear {
+                streak = tracker.streak
+                upDateStreakDays()
             }
-        }.frame(height: 200)
-        .onAppear {
-            updateDaysElapsed()
-        }
-        .onChange(of: controller.date) { _ in
-            updateDaysElapsed()
-        }
-       
-        
+            .onChange(of: tracker.startDate) { _ in
+                upDateStreakDays()
+            }
+            .ignoresSafeArea()
     }
-    
-    private func updateDaysElapsed() {
-        let calendar = Calendar.current
-        let components = calendar.dateComponents([.day],
-                                                 from: controller.date,
-                                                 to: Date())
-        if let days = components.day {
-            daysElapsed = max(0, days)
-        }
+
+    private func startedView() -> some View {
+
+        let startDateText = startDate.ISO8601Format(.iso8601.day().month().year())
+
+        let todayText = Date().ISO8601Format(.iso8601.day().month().year())
+
+        return
+            (VStack {
+                HStack {
+                    Image(systemName: "calendar")
+                    Text(startDateText)
+                    Text("→")
+                    Text(todayText)
+                    Spacer()
+                }.padding(.top, 60)
+                HStack(alignment: .bottom) {
+                    Text(streakString + " " + lc.text(.Days))
+                        .bold()
+                        .font(.largeTitle)
+
+                    Spacer()
+                    resetButton()
+                }.padding(.top, 40)
+                Spacer()
+            }.padding(.horizontal)
+            .padding(.horizontal)
+            .frame(height: 240))
     }
-    
-    private func tapButton() {
-        controller.date = Date()
-        self.daysElapsed = 0
+
+    private func setUpView() -> some View {
+        VStack {
+            HStack {
+                Image(systemName: "calendar")
+                Spacer()
+            }.padding(.top, 60)
+            startDatePicker()
+                .padding(.top)
+            startButton()
+                .padding(.top)
+            Spacer()
+        }.padding(.horizontal)
+            .padding(.horizontal)
+            .frame(height: 240)
     }
-    
-    private func isDaysZero() -> Bool {
-       daysElapsed == 0
-    }
-    
-    private func localizedDays() -> String {
-        if lc.text(.Language) == "Arabic" {
-            let numberFormatter = NumberFormatter()
-            numberFormatter.locale = Locale(identifier: "ar") // アラビア語ロケールを指定
-            let number = numberFormatter.number(from: "1234")
-            let arabicNumber = numberFormatter.string(from: daysElapsed as NSNumber)
-            return arabicNumber!.description
-        } else {
-            return daysElapsed.description
-        }
-    }
-    
+
     private func resetButton() -> some View {
         Button(action: {
-            showingAlert.toggle()
+            resetAlert.toggle()
         }) {
-            Text(lc.text(.Reset))
-        }.alert(lc.text(.Reset), isPresented: $showingAlert) {
-            Button(lc.text(.Reset), role: .destructive){
-              tapButton()
+            VStack {
+                Image(systemName: "power.dotted")
+                    .bold()
+                Text(lc.text(.Reset))
+                    .font(.caption)
+            }.padding(10)
+                .background(
+                    RoundedRectangle(cornerRadius: 10)
+                        .foregroundColor(.theme(.ThemeGray))
+                )
+                .foregroundColor(.accentColor)
+
+        }.alert(lc.text(.Reset), isPresented: $resetAlert) {
+            Button(lc.text(.Reset), role: .destructive) {
+                withAnimation {
+                    tracker.reset()
+                    upDateStreakDays()
+                }
             }
         } message: {
             Text(lc.text(.ResetMessage))
         }
     }
-    
-    private func startDatePicker() -> some View {
-        HStack {
-           
-            DatePicker(lc.text(.StartDay),
-                       selection: $controller.date,
-                       in: ...Date(), displayedComponents: .date)
-            .disabled(!isDaysZero())
-           
-        }.padding()
-            .foregroundColor(isDaysZero() ? .primary : .secondary)
+
+    private func startButton() -> some View {
+        Button(action: {
+            startAlert.toggle()
+        }) {
+            HStack {
+                Image(systemName: "power")
+                    .bold()
+                Text("Start")
+                    .bold()
+            }.padding(10)
+                .background(
+                    RoundedRectangle(cornerRadius: 10)
+                        .foregroundColor(.theme(.ThemeGray))
+                )
+                .foregroundColor(.accentColor)
+
+        }.alert(lc.text(.Reset), isPresented: $startAlert) {
+            Button("OK", role: .none) {
+                withAnimation {
+                    tracker.recordActivity(date: startDate)
+                    upDateStreakDays()
+                }
+            }
+        } message: {
+            Text(lc.text(.ResetMessage))
+        }
     }
-    
-    
+
+    private func startDatePicker() -> some View {
+
+        HStack {
+            Text("Start From")
+                .font(.title)
+                .bold()
+            Spacer()
+            DatePicker(
+                lc.text(.StartDay),
+                selection: $startDate,
+                in: ...Date(),
+                displayedComponents: .date
+            ).background(Color.theme(.ThemeGray).cornerRadius(7))
+
+        }
+        .labelsHidden()
+
+    }
+
+    private func upDateStreakDays() {
+
+        streak = tracker.streak
+        if lc.text(.Language) == "Arabic" {
+            let numberFormatter = NumberFormatter()
+            numberFormatter.locale = Locale(identifier: "ar")  // アラビア語ロケールを指定
+            let number = numberFormatter.number(from: "1234")
+            let arabicNumber = numberFormatter.string(from: streak as NSNumber)
+            streakString = arabicNumber!.description
+        } else {
+            streakString = streak.description
+        }
+    }
 }
-
-
 
 struct TimerView_Previews: PreviewProvider {
     static var previews: some View {
-        TimerView()
+        VStack {
+            TimerView()
+            Spacer()
+        }
     }
 }
-

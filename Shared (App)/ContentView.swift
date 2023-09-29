@@ -50,7 +50,7 @@ struct ContentView: View {
                         icon: "gearshape")
                 }.tag(3)
                 
-            }.navigationBarTitle(dic[selection]?.localized ?? "Home")
+            }
         }
     }
     
