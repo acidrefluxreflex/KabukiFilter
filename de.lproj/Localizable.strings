@@ -1,0 +1,77 @@
+/* 
+  Localizable.strings
+  KabukiFilter
+
+  Created by Kabuki Iwashita on 2023/04/01.
+  
+*/
+
+"LANGUAGE" = "Deutsch";
+
+
+"MASTER_PRICE" = "6,99 $/Monat";
+"TERMS_OF_USE" = "・Nutzungsbedingungen (EULA)";
+"PRIVACY_POLICY" = "・Datenschutzrichtlinien";
+"AGREE_POLICY" = "Durch die Erstellung eines Kontos stimmen Sie diesen Bedingungen zu.";
+
+"HOME" = "Startseite";
+"CHAT" = "Chat";
+"SETTING" = "Einstellungen";
+"CONTACT" = "Kontakt";
+"CUSTOM" = "Anpassen";
+"RELAX" = "Entspannen";
+
+
+"RECENT_TITLE" = "Letzte Elemente";
+"HISTORY_TITLE" = "Verlauf";
+"NEXT" = "Weiter";
+"ERROR" = "Fehler";
+"OTHER_EX_HEAD" = "Beispiel";
+"DESCRIPTION" = "Beschreibung";
+"CLOSE" = "Schließen";
+"HINT" = "Hinweis";
+"NEW" = "Neu";
+"OVERVIEW" = "Einführung";
+"CHAT_TIPS" = "Tipps zur Erstellung";
+"GO_TO_CHAT" = "Unterhalten Sie sich";
+"COMPLETE" = "VOLLSTÄNDIG";
+"THANKS_REPORT" = "Vielen Dank für Ihre Mitarbeit";
+"SEND" = "Senden";
+"NEW" = "Neu";
+"SETTING_LIMIT" = "Zu viele Zeichen";
+"TALK_FORM_TITLE" = "Unterhaltung" ;
+"REQUIRED" = "Erforderlich";
+
+
+"PremiumFunctionSectionTitle1" = "Individuelle Wörter" ;
+"PremiumFunctionSectionTitle2" = "Bildsperre";
+"PremiumFunctionSectionTitle3" = "Suchsperre";
+"PremiumFunctionSectionTitle4" = "ChatAI-Unterstützung";
+"PremiumFunctionSectionTitle5" = "Panic Alert";
+"PremiumTableImage" = "Normal-4";
+"MemoryViewTitle" = "Speicher";
+
+"MASTERPLAN" = "Masterplan";
+"PLAN_ENJOY" = "Freiheit genießen";
+"SUBSCRIPTION_INFO" = "Abonnements werden automatisch verlängert, sofern sie nicht 24 Stunden vor Ablauf des aktuellen Zeitraums storniert werden. Sie können jederzeit mit Ihren iTunes-Kontoeinstellungen kündigen. Weitere Informationen finden Sie auf diesen Seiten";
+"SUBSCRIBE" = "Abonnieren!";
+"UPGRADE_PLAN" = "Plan aktualisieren";
+"RESTORE" = "Wiederherstellen";
+"SELECT_LANGUAGE" = "Sprache auswählen";
+"PLEASE_UPGRADE" = "Upgrade erforderlich";
+"COMPLETE_CREATE" = "Herzlichen Glückwunsch!";
+
+"URL_DESCRIPTION" = "Die Bilder sind auf den von Ihnen registrierten Websites nicht sichtbar.";
+"WORD_DESCRIPTION" = "Sie können Ihre eigenen Wörter hinzufügen, die blockiert werden sollen.";
+"SEARCH_DESCRIPTION" = "Die registrierten Websites sind in den Suchergebnissen weniger sichtbar.";
+"CHAT_DESCRIPTION" = "Sie können mit KI chatten, um Motivation und Erfrischung zu erhalten.";
+"ALERT_DESCRIPTION" = "Richten Sie Benachrichtigungen ein, um sich daran zu hindern, das Gerät zu missbrauchen.";
+"BOT_GREETING" = "Was gibt's Neues?";
+
+"DAYS" = "Tage";
+"MEDITATE" = "Meditieren";
+"RESET" = "Zurücksetzen";
+"RESET_MESSAGE" = "Setzt die Anzahl der Tage zurück";
+"START_DAY" = "Start";
+"Turn on “All Websites”" = "Alle Websites einschalten";
+"Turn PureFilter On" = "Zeboot einschalten";

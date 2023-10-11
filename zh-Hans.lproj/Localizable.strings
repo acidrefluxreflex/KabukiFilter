@@ -1,0 +1,76 @@
+/* 
+  Localizable.strings
+  KabukiFilter
+
+  Created by Kabuki Iwashita on 2023/04/01.
+  
+*/
+
+"LANGUAGE" = "English";
+
+"MASTER_PRICE" = "每月$6.99";
+"TERMS_OF_USE" = "・使用条款（EULA）";
+"PRIVACY_POLICY" = "・隐私政策";
+"AGREE_POLICY" = "创建帐户即表示您同意这些条款。";
+
+"HOME" = "首页";
+"CHAT" = "聊天";
+"SETTING" = "设置";
+"CONTACT" = "联系";
+"CUSTOM" = "自定义";
+"RELAX" = "放松";
+
+
+"RECENT_TITLE" = "最近项目";
+"HISTORY_TITLE" = "对话历史";
+"NEXT" = "下一个";
+"ERROR" = "错误";
+"OTHER_EX_HEAD" = "示例";
+"DESCRIPTION" = "描述";
+"CLOSE" = "关闭";
+"HINT" = "提示";
+"NEW" = "新建";
+"OVERVIEW" = "简介";
+"CHAT_TIPS" = "创作提示";
+"GO_TO_CHAT" = "开始对话";
+"COMPLETE" = "完成";
+"THANKS_REPORT" = "感谢您的合作";
+"SEND" = "发送";
+"NEW" = "新建";
+"SETTING_LIMIT" = "字符过多";
+"TALK_FORM_TITLE" = "对话" ;
+"REQUIRED" = "必填";
+
+
+"PremiumFunctionSectionTitle1" = "自定义单词" ;
+"PremiumFunctionSectionTitle2" = "图片屏蔽";
+"PremiumFunctionSectionTitle3" = "搜索屏蔽";
+"PremiumFunctionSectionTitle4" = "ChatAI支持";
+"PremiumFunctionSectionTitle5" = "紧急警报";
+"PremiumTableImage" = "通常-4";
+"MemoryViewTitle" = "记忆";
+
+"MASTERPLAN" = "主计划";
+"PLAN_ENJOY" = "享受自由";
+"SUBSCRIPTION_INFO" = "订阅将在当前期限结束前24小时内自动续订，您可以随时在iTunes帐户设置中取消订阅。有关更多信息，请参阅这些页面";
+"SUBSCRIBE" = "订阅！";
+"UPGRADE_PLAN" = "升级计划";
+"RESTORE" = "恢复";
+"SELECT_LANGUAGE" = "选择语言";
+"PLEASE_UPGRADE" = "需要升级";
+"COMPLETE_CREATE" = "恭喜！";
+
+"URL_DESCRIPTION" = "您在注册的网站上的图像将不可见。";
+"WORD_DESCRIPTION" = "您可以添加要屏蔽的自定义单词。";
+"SEARCH_DESCRIPTION" = "注册的网站在搜索结果中将不那么明显。";
+"CHAT_DESCRIPTION" = "您可以与AI聊天以获得动力和放松。";
+"ALERT_DESCRIPTION" = "设置通知以防止滥用设备。";
+"BOT_GREETING" = "怎么了？";
+
+"DAYS" = "天";
+"MEDITATE" = "冥想";
+"RESET" = "重置";
+"RESET_MESSAGE" = "重置天数";
+"START_DAY" = "开始";
+"Turn on “All Websites”" = "打开“所有网站”";
+"Turn PureFilter On" = "打开Zeboot";

@@ -1,0 +1,81 @@
+/* 
+  Localizable.strings
+  KabukiFilter
+
+  Created by Kabuki Iwashita on 2023/04/01.
+  
+*/
+
+"LANGUAGE" = "日本語";
+
+
+"MASTER_PRICE" = "¥6.99/月";
+"TERMS_OF_USE" = "・利用規約（EULA）";
+"PRIVACY_POLICY" = "・プライバシーポリシー";
+"AGREE_POLICY" = "アカウントを作成することで、これらに同意します。";
+
+"HOME" = "ホーム";
+"CHAT" = "チャット";
+"SETTING" = "設定";
+"CONTACT" = "お問い合わせ";
+"CUSTOM" = "カスタム";
+"RELAX" = "リラックス";
+
+"RECENT_TITLE" = "最近のアイテム";
+"HISTORY_TITLE" = "会話履歴";
+"NEXT" = "次へ";
+"ERROR" = "エラー";
+"OTHER_EX_HEAD" = "例";
+"DESCRIPTION" = "説明";
+"CLOSE" = "閉じる";
+"HINT" = "ヒント";
+"NEW" = "新規";
+"OVERVIEW" = "概要";
+"CHAT_TIPS" = "会話のヒント";
+"GO_TO_CHAT" = "会話を開始";
+"COMPLETE" = "完了";
+"THANKS_REPORT" = "ご協力ありがとうございます";
+"SEND" = "送信";
+"SETTING_LIMIT" = "文字数が制限を超えています";
+"TALK_FORM_TITLE" = "会話";
+"REQUIRED" = "必須";
+
+
+
+"PremiumFunctionSectionTitle1" = "ワードカスタム" ;
+"PremiumFunctionSectionTitle2" = "画像ブロック";
+"PremiumFunctionSectionTitle3" = "検索ブロック";
+"PremiumFunctionSectionTitle4" = "ChatAIサポート";
+"PremiumFunctionSectionTitle5" = "パニックアラート";
+"PremiumTableImage" = "通常-4";
+"MemoryViewTitle" = "メモリ";
+
+"MASTERPLAN" = "マスタープラン";
+"PLAN_ENJOY" = "自由を楽しむ";
+"SUBSCRIPTION_INFO" = "サブスクリプションは現行の期間が終了する24時間前までにキャンセルしない限り、自動的に更新されます。 iTunesアカウント設定でいつでもキャンセルできます。詳細についてはこれらのページをご覧ください";
+"SUBSCRIBE" = "購読する！";
+"UPGRADE_PLAN" = "プランのアップグレード";
+"RESTORE" = "復元";
+"SELECT_LANGUAGE" = "言語を選択";
+"PLEASE_UPGRADE" = "アップグレードが必要です";
+"COMPLETE_CREATE" = "おめでとうございます！";
+
+
+"PRIVATE_INFO" = "非公開に設定すると、他の人はこのAIを検索または表示できません。コードを使用して共有することは可能です。";
+"SHARE_CARD" = "カードを共有！";
+"COMPLETE_CREATE" = "おめでとうございます！";
+
+"URL_DESCRIPTION" = "登録したサイトは他の人には見えません。";
+"WORD_DESCRIPTION" = "ブロックするために独自の単語を追加できます。";
+"SEARCH_DESCRIPTION" = "登録したサイトは検索結果で少なく表示されます。";
+"CHAT_DESCRIPTION" = "モチベーションやリフレッシュのためにAIとチャットできます。";
+"ALERT_DESCRIPTION" = "デバイスの乱用を防ぐために通知を設定できます。";
+"BOT_GREETING" = "お疲れ様です！";
+
+"DAYS" = "日";
+"MEDITATE" = "瞑想";
+"RESET" = "リセット";
+"RESET_MESSAGE" = "日数をリセットします";
+"START_DAY" = "開始";
+"Turn on “All Websites”" = "「すべてのウェブサイト」をオンにする";
+"Turn PureFilter On" = "PureFilterをオンにする";

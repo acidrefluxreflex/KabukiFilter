@@ -389,6 +389,9 @@
 		6DECE8E229ED4A6300F4BCEB /* FeedbackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackModel.swift; sourceTree = "<group>"; };
 		6DECE8E529ED4A9000F4BCEB /* FeedbackStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackStar.swift; sourceTree = "<group>"; };
 		6DECE8E829ED4AFA00F4BCEB /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		6DF7EF692AD66D0D0083CA54 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6DF7EF6A2AD6738E0083CA54 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6DF7EF6B2AD673960083CA54 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6DF84B652ACD1C7F00D21D25 /* SafariSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariSheetView.swift; sourceTree = "<group>"; };
 		6DF84B692ACE96AF00D21D25 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		6DFC280F29D976C700C7CD24 /* PrivacyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyText.swift; sourceTree = "<group>"; };
@@ -894,6 +897,9 @@
 				ar,
 				es,
 				"es-419",
+				ja,
+				"zh-Hans",
+				de,
 			);
 			mainGroup = 6DA3E8F3271961FA00C269EA;
 			packageReferences = (
@@ -1236,6 +1242,9 @@
 				6DA9D26829D81A3A0006999A /* ar */,
 				6DECE8DB29ED461100F4BCEB /* es */,
 				6DECE8E029ED466B00F4BCEB /* es-419 */,
+				6DF7EF692AD66D0D0083CA54 /* ja */,
+				6DF7EF6A2AD6738E0083CA54 /* zh-Hans */,
+				6DF7EF6B2AD673960083CA54 /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1429,7 +1438,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "KabukiFilter (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DR9P77GFSX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -1445,7 +1454,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.03;
+				MARKETING_VERSION = 1.04;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -1469,7 +1478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "KabukiFilter (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DR9P77GFSX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -1485,7 +1494,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.03;
+				MARKETING_VERSION = 1.04;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
