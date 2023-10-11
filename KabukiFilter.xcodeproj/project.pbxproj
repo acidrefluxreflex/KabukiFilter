@@ -209,6 +209,10 @@
 		6DECE8E729ED4A9000F4BCEB /* FeedbackStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DECE8E529ED4A9000F4BCEB /* FeedbackStar.swift */; };
 		6DECE8E929ED4AFA00F4BCEB /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DECE8E829ED4AFA00F4BCEB /* FeedbackView.swift */; };
 		6DECE8EA29ED4AFA00F4BCEB /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DECE8E829ED4AFA00F4BCEB /* FeedbackView.swift */; };
+		6DF84B662ACD1C7F00D21D25 /* SafariSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF84B652ACD1C7F00D21D25 /* SafariSheetView.swift */; };
+		6DF84B672ACD1C7F00D21D25 /* SafariSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF84B652ACD1C7F00D21D25 /* SafariSheetView.swift */; };
+		6DF84B6A2ACE96AF00D21D25 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF84B692ACE96AF00D21D25 /* RatingView.swift */; };
+		6DF84B6B2ACE96AF00D21D25 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF84B692ACE96AF00D21D25 /* RatingView.swift */; };
 		6DFC281029D976C700C7CD24 /* PrivacyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC280F29D976C700C7CD24 /* PrivacyText.swift */; };
 		6DFC281129D976C700C7CD24 /* PrivacyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC280F29D976C700C7CD24 /* PrivacyText.swift */; };
 		6DFC281329D9B39F00C7CD24 /* DeleteAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC281229D9B39F00C7CD24 /* DeleteAccountButton.swift */; };
@@ -385,6 +389,8 @@
 		6DECE8E229ED4A6300F4BCEB /* FeedbackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackModel.swift; sourceTree = "<group>"; };
 		6DECE8E529ED4A9000F4BCEB /* FeedbackStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackStar.swift; sourceTree = "<group>"; };
 		6DECE8E829ED4AFA00F4BCEB /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		6DF84B652ACD1C7F00D21D25 /* SafariSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariSheetView.swift; sourceTree = "<group>"; };
+		6DF84B692ACE96AF00D21D25 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		6DFC280F29D976C700C7CD24 /* PrivacyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyText.swift; sourceTree = "<group>"; };
 		6DFC281229D9B39F00C7CD24 /* DeleteAccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -619,6 +625,7 @@
 				6DA9D18D29D57D7D0006999A /* TabViewExtension.swift */,
 				6DA9D19629D57D7E0006999A /* UIImageExtension.swift */,
 				6DA9D18F29D57D7D0006999A /* ViewExtension.swift */,
+				6DF84B652ACD1C7F00D21D25 /* SafariSheetView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -631,6 +638,7 @@
 				6DECE8E829ED4AFA00F4BCEB /* FeedbackView.swift */,
 				6DA9D13E29D57D430006999A /* NewsSection.swift */,
 				6DA9D16F29D57D690006999A /* TimerView.swift */,
+				6DF84B692ACE96AF00D21D25 /* RatingView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -663,6 +671,7 @@
 		6DA9D23929D725DC0006999A /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				6DF84B682ACD1EC200D21D25 /* Firestore */,
 				6D5F3DCF2AC690D900964150 /* AnimatedTabBar */,
 				6DA9D24829D811B60006999A /* Purchase */,
 				6DA9D1B529D57E240006999A /* AuthController.swift */,
@@ -748,6 +757,13 @@
 				6DBA9C4029EE6D05007C8B14 /* RolingAnimation.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		6DF84B682ACD1EC200D21D25 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firestore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1002,6 +1018,7 @@
 				6DA3E947271961FD00C269EA /* ViewController.swift in Sources */,
 				6D829A2B29ECC5BE0098B987 /* FireStoreRepositry.swift in Sources */,
 				6DA9D24729D7E6D00006999A /* PanicAlertManager.swift in Sources */,
+				6DF84B6A2ACE96AF00D21D25 /* RatingView.swift in Sources */,
 				6D2F2FFD29D9042500A5F60C /* LoadingDots.swift in Sources */,
 				6D6F552C29ED3BC700DA42A4 /* NewsViewController.swift in Sources */,
 				6DA9D15D29D57D440006999A /* PanicView.swift in Sources */,
@@ -1017,6 +1034,7 @@
 				6DA9D1A529D57D7F0006999A /* CustomRounded.swift in Sources */,
 				6DA9D15F29D57D440006999A /* MeditateView.swift in Sources */,
 				6DA9D15129D57D440006999A /* SettingView.swift in Sources */,
+				6DF84B662ACD1C7F00D21D25 /* SafariSheetView.swift in Sources */,
 				6DECE8E929ED4AFA00F4BCEB /* FeedbackView.swift in Sources */,
 				6DA9D18129D57D690006999A /* DaisyTextField.swift in Sources */,
 				6DA9D17B29D57D690006999A /* GoogleLoginButton.swift in Sources */,
@@ -1092,6 +1110,7 @@
 				6DA9D16429D57D440006999A /* NewsSection.swift in Sources */,
 				6D5F3DBC2AC5170500964150 /* ViewTopLayer.swift in Sources */,
 				6DA9D15E29D57D440006999A /* MeditateView.swift in Sources */,
+				6DF84B672ACD1C7F00D21D25 /* SafariSheetView.swift in Sources */,
 				6DA9D18029D57D690006999A /* TimerView.swift in Sources */,
 				6DA9D16629D57D440006999A /* TutorialView.swift in Sources */,
 				6D5F3DD82AC694AD00964150 /* ATBCustom.swift in Sources */,
@@ -1111,6 +1130,7 @@
 				6DA9D26A29D81B270006999A /* TextButtonStyle.swift in Sources */,
 				6D829A2C29ECC5BE0098B987 /* FireStoreRepositry.swift in Sources */,
 				6DA9D17629D57D690006999A /* TimerController.swift in Sources */,
+				6DF84B6B2ACE96AF00D21D25 /* RatingView.swift in Sources */,
 				6DA9D18829D57D690006999A /* NewsModel.swift in Sources */,
 				6DA9D15429D57D440006999A /* HomeView.swift in Sources */,
 				6DA9D16829D57D440006999A /* URLSection.swift in Sources */,
@@ -1409,12 +1429,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "KabukiFilter (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = DR9P77GFSX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "PureFilter ";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_CFBundleDisplayName = Zeboot;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1425,7 +1445,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.02;
+				MARKETING_VERSION = 1.03;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -1449,12 +1469,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "KabukiFilter (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = DR9P77GFSX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "PureFilter ";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_CFBundleDisplayName = Zeboot;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1465,7 +1485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.02;
+				MARKETING_VERSION = 1.03;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,

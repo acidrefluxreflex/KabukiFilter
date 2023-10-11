@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ActivityIndicator: View {
-    
+
     @State private var isAnimating: Bool = false
 
     var body: some View {

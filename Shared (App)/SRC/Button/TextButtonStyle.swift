@@ -8,22 +8,24 @@
 import SwiftUI
 
 struct TextButtonStyle: View {
-    
+
     @State private var color: Color
     @State private var title: String
     @State private var text: String
     @State private var systemName: String
-    
-    init(color: Color = .accentColor,
-         title: String = "Title",
-         text: String = "Hello, World.",
-         systemName: String = "key.fill") {
+
+    init(
+        color: Color = .accentColor,
+        title: String = "Title",
+        text: String = "Hello, World.",
+        systemName: String = "key.fill"
+    ) {
         self.color = color
         self.title = title
         self.text = text
         self.systemName = systemName
     }
-    
+
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
@@ -34,18 +36,19 @@ struct TextButtonStyle: View {
                     Image(systemName: systemName)
                         .font(.body)
                         .foregroundColor(.white)
-                    
-                        
+
                 }
                 Text(title)
                     .bold()
                     .font(.title3)
+                
                 Spacer()
             }
             Text(text)
                 .font(.caption)
-            
-        }//.padding()
+                .foregroundColor(.gray)
+
+        }  //.padding()
         .buttonStyle(.plain)
     }
 }

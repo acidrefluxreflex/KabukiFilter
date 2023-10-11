@@ -46,4 +46,3 @@ struct LogoutButton_Previews: PreviewProvider {
         LogOutButton()
     }
 }
-

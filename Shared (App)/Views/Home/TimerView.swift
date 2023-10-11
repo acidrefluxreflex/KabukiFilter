@@ -140,7 +140,7 @@ struct TimerView: View {
                 )
                 .foregroundColor(.accentColor)
 
-        }.alert(lc.text(.Reset), isPresented: $startAlert) {
+        }.alert("Start!", isPresented: $startAlert) {
             Button("OK", role: .none) {
                 withAnimation {
                     tracker.recordActivity(date: startDate)
@@ -148,7 +148,7 @@ struct TimerView: View {
                 }
             }
         } message: {
-            Text(lc.text(.ResetMessage))
+            Text("Enjoy New Life")
         }
     }
 

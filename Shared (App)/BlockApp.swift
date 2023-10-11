@@ -6,9 +6,9 @@
 //
 
 import FirebaseCore
+import GoogleSignIn
 import RevenueCat
 import SwiftUI
-import GoogleSignIn
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(
@@ -17,8 +17,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     )
         -> Bool
     {
-       // UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) {
-     
+        // UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) {
+
         return GIDSignIn.sharedInstance.handle(url)
     }
 
@@ -26,31 +26,32 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 @main
 struct IzumoApp: App {
-  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-  @AppStorage("isFirstLaunch") var isFirstLaunch = true
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @AppStorage("isFirstLaunch") var isFirstLaunch = true
 
     init() {
 
-           Purchases.debugLogsEnabled = true
-           Purchases.configure(withAPIKey: Constants.apiKey,
-           appUserID: nil,
-           observerMode: false)
-           FirebaseApp.configure()
-          // ライブラリ有効化
-          //IQKeyboardManager.shared.enable = true
-          // キーボードの上のToolbar「「Done」ボタンがあるエリア」を非表示にする
-          //IQKeyboardManager.shared.enableAutoToolbar = false
-          // 外側をタップしたときにキーボードを閉じる
-          //IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        Purchases.debugLogsEnabled = true
+        Purchases.configure(
+            withAPIKey: Constants.apiKey,
+            appUserID: nil,
+            observerMode: false)
+        FirebaseApp.configure()
+        // ライブラリ有効化
+        //IQKeyboardManager.shared.enable = true
+        // キーボードの上のToolbar「「Done」ボタンがあるエリア」を非表示にする
+        //IQKeyboardManager.shared.enableAutoToolbar = false
+        // 外側をタップしたときにキーボードを閉じる
+        //IQKeyboardManager.shared.shouldResignOnTouchOutside = true
 
-      }
-
-  var body: some Scene {
-    WindowGroup {
-      ContentView()
-            .sheet(isPresented: $isFirstLaunch) {
-                TutorialView()
-            }
     }
-  }
+
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+                .sheet(isPresented: $isFirstLaunch) {
+                    TutorialView()
+                }
+        }
+    }
 }

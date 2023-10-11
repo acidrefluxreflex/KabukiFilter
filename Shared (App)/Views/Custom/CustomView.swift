@@ -8,69 +8,70 @@
 import SwiftUI
 
 struct CustomView: View {
-    
+
     private let lc = LocalizeCodes()
     @StateObject private var manager = PaymentStateManager()
     var body: some View {
-        
-  
-            List {
+
+        List {
+         
+            if manager.isUserSubscribed {
                 linkSection()
-                if manager.isUserSubscribed {
-                    linkSection()
-                } else {
-                    freeSection()
-                }
-            }.onAppear {
-                manager.checkUserSubscribed()
+            } else {
+                freeSection()
             }
-        
-        
-       
+        }.onAppear {
+            manager.checkUserSubscribed()
+        }.navigationTitle("Custom")
+
     }
-    
-    private func linkSection() -> some View{
+
+    private func linkSection() -> some View {
         Section {
-            NavigationLink(destination:  WordSection()) {
-                TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle1),
-                                text: lc.text(.WordDescription),
-                                systemName: "textformat")
+            NavigationLink(destination: WordSection()) {
+                TextButtonStyle(
+                    title: lc.text(.PremiumFunctionSectionTitle1),
+                    text: lc.text(.WordDescription),
+                    systemName: "textformat")
             }
-            NavigationLink(destination:  SearchFilterSection()) {
-                TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle2),
-                                text: lc.text(.SearchDescription),
-                                systemName: "magnifyingglass")
+            NavigationLink(destination: SearchFilterSection()) {
+                TextButtonStyle(
+                    title: lc.text(.PremiumFunctionSectionTitle2),
+                    text: lc.text(.SearchDescription),
+                    systemName: "magnifyingglass")
             }
-            NavigationLink(destination:  URLSection()) {
-                TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle3),
-                                text: lc.text(.URLDescription),
-                                systemName: "photo")
+            NavigationLink(destination: URLSection()) {
+                TextButtonStyle(
+                    title: lc.text(.PremiumFunctionSectionTitle3),
+                    text: lc.text(.URLDescription),
+                    systemName: "photo")
             }
         }
     }
-    
-    private func freeSection() -> some View{
+
+    private func freeSection() -> some View {
         Section {
-            NavigationLink(destination:  PurchaseView()) {
-                TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle1),
-                                text: lc.text(.WordDescription),
-                                systemName: "textformat")
+            NavigationLink(destination: PurchaseView()) {
+                TextButtonStyle(
+                    title: lc.text(.PremiumFunctionSectionTitle1),
+                    text: lc.text(.WordDescription),
+                    systemName: "textformat")
             }
-            NavigationLink(destination:  PurchaseView()) {
-                TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle2),
-                                text: lc.text(.SearchDescription),
-                                systemName: "magnifyingglass")
+            NavigationLink(destination: PurchaseView()) {
+                TextButtonStyle(
+                    title: lc.text(.PremiumFunctionSectionTitle2),
+                    text: lc.text(.SearchDescription),
+                    systemName: "magnifyingglass")
             }
-            NavigationLink(destination:  PurchaseView()) {
-                TextButtonStyle(title: lc.text(.PremiumFunctionSectionTitle3),
-                                text: lc.text(.URLDescription),
-                                systemName: "photo")
+            NavigationLink(destination: PurchaseView()) {
+                TextButtonStyle(
+                    title: lc.text(.PremiumFunctionSectionTitle3),
+                    text: lc.text(.URLDescription),
+                    systemName: "photo")
             }
         }
     }
-    
-    
-    
+
 }
 
 struct CustomView_Previews: PreviewProvider {

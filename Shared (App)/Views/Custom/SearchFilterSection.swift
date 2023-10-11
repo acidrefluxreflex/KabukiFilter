@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct SearchFilterSection: View {
-    
+
     @StateObject private var model = CustomFilterModel()
     @State private var text = ""
     @State private var isShowAlert = false
-    
+
     var body: some View {
         VStack {
             DaisyTextField(text: $text, placeholder: "New Word")
-             .padding()
+                .padding()
             Button("save") {
                 if text.count <= 2 {
                     isShowAlert = true
@@ -24,36 +24,36 @@ struct SearchFilterSection: View {
                     save()
                 }
             }
-            
+
             List {
                 ForEach(model.blurSites, id: \.self) { word in
                     Text(word)
-                } .onDelete(perform: delete)
+                }.onDelete(perform: delete)
             }.listStyle(.plain)
         }
         .alert("Error", isPresented: $isShowAlert) {
             Text("The word should have at least 3 characters.")
         }
     }
-    
+
     private func save() {
         model.blurSites.append(text)
         text.removeAll()
     }
-    
+
     private func delete(at offsets: IndexSet) {
         model.blurSites.remove(atOffsets: offsets)
-      }
-    
+    }
+
     private func fixURL(_ text: String) -> String {
         if let url = URL(string: text) {
             let formattedUrl = url.host ?? ""
-            return formattedUrl // app.revenuecat.com
+            return formattedUrl  // app.revenuecat.com
         } else {
             return text
         }
     }
-    
+
 }
 
 struct SearchFilterSection_Previews: PreviewProvider {

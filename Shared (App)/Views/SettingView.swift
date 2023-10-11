@@ -23,7 +23,7 @@ struct SettingView: View {
                 TutorialView()
             }
             #endif
-        }
+        }.navigationTitle("Setting")
     }
 }
 

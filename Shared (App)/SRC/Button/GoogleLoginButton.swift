@@ -20,7 +20,7 @@ struct GoogleAuthButton: View {
 
     @StateObject private var auth = AuthController()
     @ObservedObject var manager: LoginManeger = LoginManeger()
-    
+
     let gBlue = Color(hex: "#4285F4")
 
     var body: some View {
@@ -36,20 +36,20 @@ struct GoogleAuthButton: View {
         HStack {
             Spacer()
             Image(systemName: "g.circle.fill")
-                
+
             Text("Sign in with Google")
                 .font(.title2)
             Spacer()
         }.foregroundColor(.white)
-        .frame(height: 60)
-        .overlay(
-            RoundedRectangle(cornerRadius: 5)
-                .stroke(.secondary, lineWidth: 1)
-        )
-        .background(
-           gBlue
-                .cornerRadius(5)
-        )
+            .frame(height: 60)
+            .overlay(
+                RoundedRectangle(cornerRadius: 5)
+                    .stroke(.secondary, lineWidth: 1)
+            )
+            .background(
+                gBlue
+                    .cornerRadius(5)
+            )
     }
 
     func gIDSignIn() {
@@ -95,4 +95,3 @@ struct GoogleAuthButton_Previews: PreviewProvider {
             .padding()
     }
 }
-

@@ -26,11 +26,11 @@ struct PremiumFunctionSection: View {
                 text: lc.text(.SearchDescription),
                 systemName: "magnifyingglass")
             PremiumFunctionCell(
-                title: lc.text(.PremiumFunctionSectionTitle3),
+                title: lc.text(.PremiumFunctionSectionTitle4),
                 text: lc.text(.ChatDescription),
                 systemName: "exclamationmark.triangle")
             PremiumFunctionCell(
-                title: lc.text(.PremiumFunctionSectionTitle3),
+                title: lc.text(.PremiumFunctionSectionTitle5),
                 text: lc.text(.AlertDescription),
                 systemName: "smiley")
         }

@@ -8,23 +8,22 @@
 import SwiftUI
 
 struct NewsView: View {
-    
+
     @StateObject private var controller = NewsViewController()
     private let lc = LocalizeCodes()
-    
+
     var body: some View {
         VStack(alignment: .leading, spacing: 1) {
             if !filterByLanguage().isEmpty {
                 Text("News")
-                
+
                     .bold()
                     .font(.title2)
 
-                    
                 VStack {
-                   
+
                     NewsContent(model: filterByLanguage().first!)
-                            .transition(.opacity)
+                        .transition(.opacity)
                 }
             } else {
                 EmptyView()
@@ -36,16 +35,15 @@ struct NewsView: View {
                 controller.load()
             }
         }.padding()
-        
+
     }
-    
+
     private func filterByLanguage() -> [NewsModel] {
         let language = lc.text(.Language)
         let data = controller.data
         return data.filter { $0.language == language }
     }
-    
-    
+
 }
 
 struct NewsView_Previews: PreviewProvider {

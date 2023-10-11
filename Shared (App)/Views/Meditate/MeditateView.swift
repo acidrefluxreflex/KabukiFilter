@@ -15,7 +15,7 @@ struct MeditateView: View {
     var body: some View {
     
             List {
-                
+
                 if manager.isUserSubscribed {
                     linkSection()
                 } else {
@@ -23,7 +23,7 @@ struct MeditateView: View {
                 }
             }.onAppear {
                 manager.checkUserSubscribed()
-            }
+            }.navigationTitle(lc.text(.Meditate))
         
     }
     

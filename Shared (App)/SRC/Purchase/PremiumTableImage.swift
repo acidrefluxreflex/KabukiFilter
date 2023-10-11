@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct PremiumTableImage: View {
 
     @State private var size: CGFloat
@@ -38,4 +37,3 @@ struct PremiumTableImage_Previews: PreviewProvider {
         PremiumTableImage()
     }
 }
-

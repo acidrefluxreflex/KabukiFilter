@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 
-
 struct Message: Hashable {
     var message: String
     var avatar: String

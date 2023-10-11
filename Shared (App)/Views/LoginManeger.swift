@@ -14,12 +14,10 @@ class LoginManeger: ObservableObject {
     @Published var userID: String = ""
     let auth = AuthController()
 
-
     var userSession: Firebase.User?
 
     func registerUser() {
         auth.reloadUserID()
-       
     }
 
     func loadID() {

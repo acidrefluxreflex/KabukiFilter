@@ -7,9 +7,8 @@
 
 import SwiftUI
 
-
 struct DaisyTextField: View {
-    
+
     @Binding private var text: String
     @State private var placeholder: String
     @State private var height: CGFloat
@@ -24,10 +23,9 @@ struct DaisyTextField: View {
     @State private var placeholderLeadingPadding: Double = 2.0
     @State private var placeholderBottomPadding: Double = 0.0
     @State private var placeholderColor: Color = Color.gray
-    
+
     private var textFieldOnEditingChanged: (Bool) -> Void
     private var textFieldOnCommit: () -> Void
-
 
     init(
         text: Binding<String>,
@@ -63,7 +61,7 @@ struct DaisyTextField: View {
                     .padding(9)
                 }
             }.frame(height: height)
-       
+
         }
         .onChange(of: nameFieldIsFocused) { newValue in
             withAnimation(.easeOut(duration: 0.1)) {

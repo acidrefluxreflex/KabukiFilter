@@ -12,8 +12,6 @@ struct PremiumButton: View {
 
     private let lc = LocalizeCodes()
     @StateObject private var manager = PaymentStateManager()
-    
-
 
     var body: some View {
         NavigationLink(destination: PurchaseView()) {
@@ -51,9 +49,9 @@ struct PremiumButton_Previews: PreviewProvider {
 }
 
 class PaymentStateManager: PaymentModel {
-    
+
     let defaults = UserDefaults.standard
-    
+
     func load() {
         if defaults.string(forKey: defaultsKey) != nil {
             self.isPurchase = true
@@ -61,6 +59,5 @@ class PaymentStateManager: PaymentModel {
             self.isPurchase = false
         }
     }
-    
-    
+
 }

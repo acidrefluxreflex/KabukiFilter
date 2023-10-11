@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct FeedbackStar: View {
-    
+
     @Binding var rating: Int
-    
 
     var label = ""
 
@@ -21,17 +20,17 @@ struct FeedbackStar: View {
 
     var offColor = Color.gray
     var onColor = Color.accentColor
-    
+
     var body: some View {
-        
+
         HStack {
-            
+
             if label.isEmpty == false {
                 Text(label)
             }
 
             ForEach(1..<maximumRating + 1, id: \.self) { number in
-                
+
                 image(for: number)
                     .foregroundColor(number > rating ? offColor : onColor)
                     .onTapGesture {
@@ -40,7 +39,7 @@ struct FeedbackStar: View {
             }
         }
     }
-    
+
     func image(for number: Int) -> Image {
         if number > rating {
             return offImage
@@ -48,7 +47,7 @@ struct FeedbackStar: View {
             return onImage
         }
     }
-    
+
 }
 
 struct FeedbackStar_Previews: PreviewProvider {

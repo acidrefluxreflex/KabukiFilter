@@ -21,8 +21,7 @@ class FeedBackModel: ObservableObject, Codable, Identifiable {
     @Published var name: String = ""
     @Published var text: String = ""
     @Published var rating: Int = 1
-    
-    
+
     var date = Timestamp()
 
     init() {

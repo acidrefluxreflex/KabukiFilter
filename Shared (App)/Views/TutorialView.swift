@@ -8,22 +8,22 @@
 import SwiftUI
 
 struct TutorialView: View {
-    
+
     @Environment(\.dismiss) private var dismiss: DismissAction
     @ObservedObject var manager = LoginManeger()
-    
+
     var body: some View {
-      ScrollView {
+        ScrollView {
             HelpView()
                 .padding(.bottom)
             Button("Skip") {
                 dismiss()
             }.padding(.bottom)
-          AppleAuthButton(manager: manager)
+            AppleAuthButton(manager: manager)
                 .padding(.horizontal)
                 .padding(.horizontal)
-          
-          GoogleAuthButton(manager: manager)
+
+            GoogleAuthButton(manager: manager)
                 .padding()
                 .padding(.horizontal)
             PrivacyText()

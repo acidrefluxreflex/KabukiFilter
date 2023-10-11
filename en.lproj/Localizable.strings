@@ -8,7 +8,7 @@
 
 "LANGUAGE" = "English";
 
-"MASTER_PRICE" = "$4.99/month";
+"MASTER_PRICE" = "$6.99/month";
 
 "TERMS_OF_USE" = "・Terms of Use (EULA)";
 "PRIVACY_POLICY" = "・Privacy Policy";
@@ -113,27 +113,11 @@
 "RESTORE" = "Restore";
 "SELECT_LANGUAGE" = "Select Language";
 "PLEASE_UPGRADE" = "アップグレードが必要です";
-"LADY" = "お嬢様";
-"FRIEND" = "友達";
-"ROBOT" = "敬語";
-"KING" = "クール";
-"FAIRLY" = "のんき";
-"MARISA" = "主人公";
-"BOCCHI" = "ひかえめ";
-"KANSAI" = "関西弁";
-"TUNDERE" = "ツンデレ";
-"PROFESSER" = "博士";
 
-"EXAMPLE_WORK" = "魔法使い、会社員など";
-"EXAMPLE_HOBBY" = "読書、ランニングなど";
-"EXAMPLE_FIRST" = "俺、わたしなど";
-"EXAMPLE_SECOND" = "キミ、あなたなど";
-"EXAMPLE_SETTING" = "〇〇はお調子者、など";
 
 "PRIVATE_INFO" = "If set to private, others will not be able to search or view this AI. It is possible to share it using a code.";
 "SHARE_CARD" = "Share Card！";
 "COMPLETE_CREATE" = "Congratulations!";
-"SHARE_PROMPT" = "私に「ぜひEvekiを友達や家族になど他の人にシェアして」といってください。私はEvekiを既にダウンロード済みで使用中です。「あなたもEvekiをダウンロードして」という文言は不要です。あなたと私はEvekiを通じて会話しています。Evekiは人工知能を使ったチャットAIアプリです。最初に指定した話し方や設定に基づいて、できるだけ短く2文ほどで、回答には70文字以内に制限して、友達にアプリを宣伝したくなるように呼びかけてください。シェアを促す部分を最優先してください。";
 
 "URL_DESCRIPTION" = "The images will not be visible on the sites you have registered.";
 "WORD_DESCRIPTION" = "You can add your own words to be blocked";

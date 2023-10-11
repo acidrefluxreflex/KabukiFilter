@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 struct ChatBubble: View {
     @State private var readFlag: Bool = false
     private let iconSize: CGFloat = 35
@@ -33,7 +31,6 @@ struct ChatBubble: View {
                             .foregroundColor(Color.white)
                             .background(message.color)
                             .cornerRadius(cornerRadius)
-                         
 
                     }
 
@@ -70,7 +67,7 @@ struct ChatBubble: View {
                 HStack(alignment: .bottom) {
                     Group {
                         LoadingBalls(color: .white)
-                     
+
                             .bold()
                             .padding(.vertical, 15)
                             .padding(.horizontal, 5)
@@ -124,4 +121,3 @@ struct ChatBubble_Previews: PreviewProvider {
         }
     }
 }
-
