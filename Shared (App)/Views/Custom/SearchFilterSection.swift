@@ -13,6 +13,8 @@ struct SearchFilterSection: View {
     @State private var text = ""
     @State private var isShowAlert = false
 
+    private let lc = LocalizeCodes()
+
     var body: some View {
         VStack {
             DaisyTextField(text: $text, placeholder: "New Word")
@@ -34,9 +36,11 @@ struct SearchFilterSection: View {
         .alert("Error", isPresented: $isShowAlert) {
             Text("The word should have at least 3 characters.")
         }
+        .navigationTitle(lc.text(.PremiumFunctionSectionTitle3))
     }
 
     private func save() {
+        text = model.extractHostName(from: text)
         model.blurSites.append(text)
         text.removeAll()
     }

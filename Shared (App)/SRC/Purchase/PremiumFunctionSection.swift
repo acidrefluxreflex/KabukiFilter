@@ -28,11 +28,17 @@ struct PremiumFunctionSection: View {
             PremiumFunctionCell(
                 title: lc.text(.PremiumFunctionSectionTitle4),
                 text: lc.text(.ChatDescription),
-                systemName: "exclamationmark.triangle")
+                systemName: "smiley")
             PremiumFunctionCell(
                 title: lc.text(.PremiumFunctionSectionTitle5),
                 text: lc.text(.AlertDescription),
-                systemName: "smiley")
+                systemName: "exclamationmark.triangle")
+            if lc.text(.Language) == "日本語" {
+                PremiumFunctionCell(
+                    title: "自分へのプレッシャー",
+                    text: "お金を無駄にしたくない気持ちで継続できるかもしれません",
+                    systemName: "dollarsign")
+            }
         }
     }
 

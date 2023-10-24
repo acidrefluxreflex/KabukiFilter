@@ -38,7 +38,7 @@ struct PremiumFunctionCell: View {
                     .background(
                         RoundedRectangle(cornerRadius: 10)
                             .foregroundColor(color)
-                            .opacity(0.7)
+
                             .shadow(radius: 3)
                             .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 10))
                             .overlay(

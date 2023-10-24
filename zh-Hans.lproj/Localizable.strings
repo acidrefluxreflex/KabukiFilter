@@ -74,3 +74,14 @@
 "START_DAY" = "开始";
 "Turn on “All Websites”" = "打开“所有网站”";
 "Turn PureFilter On" = "打开Zeboot";
+
+
+
+"HINT" = "Hint";
+"CONTACT" = "Contact";
+"SURVEY" = "Survey";
+"WEBSITE" = "Website";
+"REVIEW" = "Review";
+"INFO" = "Info";
+
+"CHAT_INFO" = "All chat content is AI-generated and does not represent official positions, etc.";

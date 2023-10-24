@@ -250,7 +250,7 @@ class LocalizeCodes {
         case UpgradePlan = "UPGRADE_PLAN"
 
         case SelectLanguage = "SELECT_LANGUAGE"
-case PleaseUpgrade = "PLEASE_UPGRADE"
+        case PleaseUpgrade = "PLEASE_UPGRADE"
         case Lady = "LADY"
         case Friend = "FRIEND"
         case Robot = "ROBOT"
@@ -265,11 +265,11 @@ case PleaseUpgrade = "PLEASE_UPGRADE"
         case ExampleHobby = "EXAMPLE_HOBBY"
         case ExampleFirst = "EXAMPLE_FIRST"
         case ExampleSecond = "EXAMPLE_SECOND"
-        
+
         case ExampleSetting = "EXAMPLE_SETTING"
         case Contact = "CONTACT"
         case PrivateInfo = "PRIVATE_INFO"
-        
+
         case ShareCard = "SHARE_CARD"
         case CompleteCreate = "COMPLETE_CREATE"
         case SharePrompt = "SHARE_PROMPT"
@@ -280,14 +280,20 @@ case PleaseUpgrade = "PLEASE_UPGRADE"
         case AlertDescription = "ALERT_DESCRIPTION"
 
         case BotGreeting = "BOT_GREETING"
-        
+
         case Days = "DAYS"
-        
+
         case Custom = "CUSTOM"
         case Meditate = "MEDITATE"
         case Reset = "RESET"
         case ResetMessage = "RESET_MESSAGE"
         case StartDay = "START_DAY"
+
+
+        case Survey = "SURVEY"
+        case WebSite = "WEBSITE"
+        case Review = "REVIEW"
+        case Info = "INFO"
     }
 
     func text(_ code: Code) -> String {

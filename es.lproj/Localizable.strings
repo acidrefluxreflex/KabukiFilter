@@ -75,3 +75,13 @@
 "START_DAY" = "Comenzar";
 "Turn on “All Websites”" = "Encender \"Todos los sitios web\"";
 "Turn PureFilter On" = "Encender Zeboot";
+
+
+"HINT" = "Hint";
+"CONTACT" = "Contact";
+"SURVEY" = "Survey";
+"WEBSITE" = "Website";
+"REVIEW" = "Review";
+"INFO" = "Info";
+
+"CHAT_INFO" = "All chat content is AI-generated and does not represent official positions, etc.";

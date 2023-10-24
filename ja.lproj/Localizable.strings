@@ -9,7 +9,7 @@
 "LANGUAGE" = "日本語";
 
 
-"MASTER_PRICE" = "¥6.99/月";
+"MASTER_PRICE" = "1000円/月";
 "TERMS_OF_USE" = "・利用規約（EULA）";
 "PRIVACY_POLICY" = "・プライバシーポリシー";
 "AGREE_POLICY" = "アカウントを作成することで、これらに同意します。";
@@ -54,7 +54,7 @@
 "PLAN_ENJOY" = "自由を楽しむ";
 "SUBSCRIPTION_INFO" = "サブスクリプションは現行の期間が終了する24時間前までにキャンセルしない限り、自動的に更新されます。 iTunesアカウント設定でいつでもキャンセルできます。詳細についてはこれらのページをご覧ください";
 "SUBSCRIBE" = "購読する！";
-"UPGRADE_PLAN" = "プランのアップグレード";
+"UPGRADE_PLAN" = "Upgrade Plan";
 "RESTORE" = "復元";
 "SELECT_LANGUAGE" = "言語を選択";
 "PLEASE_UPGRADE" = "アップグレードが必要です";
@@ -65,9 +65,9 @@
 "SHARE_CARD" = "カードを共有！";
 "COMPLETE_CREATE" = "おめでとうございます！";
 
-"URL_DESCRIPTION" = "登録したサイトは他の人には見えません。";
+"URL_DESCRIPTION" = "登録したサイトでは画像が表示されなくなります。";
 "WORD_DESCRIPTION" = "ブロックするために独自の単語を追加できます。";
-"SEARCH_DESCRIPTION" = "登録したサイトは検索結果で少なく表示されます。";
+"SEARCH_DESCRIPTION" = "登録したサイトは検索結果で見えにくくなります。";
 "CHAT_DESCRIPTION" = "モチベーションやリフレッシュのためにAIとチャットできます。";
 "ALERT_DESCRIPTION" = "デバイスの乱用を防ぐために通知を設定できます。";
 "BOT_GREETING" = "お疲れ様です！";
@@ -79,3 +79,14 @@
 "START_DAY" = "開始";
 "Turn on “All Websites”" = "「すべてのウェブサイト」をオンにする";
 "Turn PureFilter On" = "PureFilterをオンにする";
+
+
+"HINT" = "Hint";
+"CONTACT" = "お問い合わせ";
+"SURVEY" = "アンケート";
+"WEBSITE" = "ウェブサイト";
+"REVIEW" = "レビュー";
+"INFO" = "Info";
+
+
+"CHAT_INFO" = "チャットの内容は全てAIによって生成されたもので、公式の立場などを表したものではありません";

@@ -75,3 +75,14 @@
 "START_DAY" = "ابدأ";
 "Turn on “All Websites”" = "تشغيل \"جميع المواقع\"";
 "Turn PureFilter On" = "تشغيل PureFilter";
+
+
+"HINT" = "Hint";
+"CONTACT" = "Contact";
+"SURVEY" = "Survey";
+"WEBSITE" = "Website";
+"REVIEW" = "Review";
+"INFO" = "Info";
+
+"CHAT_INFO" = "All chat content is AI-generated and does not represent official positions, etc.";
+

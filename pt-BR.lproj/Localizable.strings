@@ -1,0 +1,88 @@
+/* 
+  Localizable.strings
+  KabukiFilter
+
+  Created by Kabuki Iwashita on 2023/04/01.
+  
+*/
+
+"LANGUAGE" = "Português";
+
+
+"MASTER_PRICE" = "R$6.99/mês";
+"TERMS_OF_USE" = "・Termos de Uso (EULA)";
+"PRIVACY_POLICY" = "・Política de Privacidade";
+"AGREE_POLICY" = "Ao criar uma conta, você concorda com estes termos.";
+
+"HOME" = "Início";
+"CHAT" = "Chat";
+"SETTING" = "Configurações";
+"CONTACT" = "Contato";
+"CUSTOM" = "Personalizado";
+"RELAX" = "Relaxar";
+
+
+"RECENT_TITLE" = "Itens Recentes";
+"HISTORY_TITLE" = "Histórico de Conversas";
+"NEXT" = "Próximo";
+"ERROR" = "Erro";
+"OTHER_EX_HEAD" = "Exemplo";
+"DESCRIPTION" = "Descrição";
+"CLOSE" = "Fechar";
+"HINT" = "Dica";
+"NEW" = "Novo";
+"OVERVIEW" = "Introdução";
+"CHAT_TIPS" = "Dicas de Criação";
+"GO_TO_CHAT" = "Conversar";
+"COMPLETE" = "COMPLETO";
+"THANKS_REPORT" = "Obrigado pela sua cooperação";
+"SEND" = "Enviar";
+"NEW" = "Novo";
+"SETTING_LIMIT" = "Muitos caracteres";
+"TALK_FORM_TITLE" = "Conversa" ;
+"REQUIRED" = "Obrigatório";
+
+
+"PremiumFunctionSectionTitle1" = "Personalização de Palavras" ;
+"PremiumFunctionSectionTitle2" = "Bloqueio de Imagem";
+"PremiumFunctionSectionTitle3" = "Bloqueio de Pesquisa";
+"PremiumFunctionSectionTitle4" = "Suporte ChatAI";
+"PremiumFunctionSectionTitle5" = "Alerta de Pânico";
+"PremiumTableImage" = "Normal-4";
+"MemoryViewTitle" = "Memória";
+
+"MASTERPLAN" = "Plano Master";
+"PLAN_ENJOY" = "Desfrute da Liberdade";
+"SUBSCRIPTION_INFO" = "As assinaturas serão renovadas automaticamente, a menos que canceladas até 24 horas antes do final do período atual. Você pode cancelar a qualquer momento nas configurações da sua conta iTunes. Para mais informações, consulte estas páginas";
+"SUBSCRIBE" = "Assinar!";
+"UPGRADE_PLAN" = "Atualizar Plano";
+"RESTORE" = "Restaurar";
+"SELECT_LANGUAGE" = "Selecionar Idioma";
+"PLEASE_UPGRADE" = "É necessário fazer upgrade";
+"COMPLETE_CREATE" = "Parabéns!";
+
+"URL_DESCRIPTION" = "As imagens não serão visíveis nos sites que você registrou.";
+"WORD_DESCRIPTION" = "Você pode adicionar suas próprias palavras para serem bloqueadas";
+"SEARCH_DESCRIPTION" = "Os sites registrados serão menos visíveis nos resultados da pesquisa";
+"CHAT_DESCRIPTION" = "Você pode conversar com a IA para motivação e relaxamento.";
+"ALERT_DESCRIPTION" = "Configure notificações para evitar o uso indevido do dispositivo";
+"BOT_GREETING" = "E aí?";
+
+"DAYS" = "dias";
+"MEDITATE" = "Meditar";
+"RESET" = "Redefinir";
+"RESET_MESSAGE" = "Redefine o número de dias";
+"START_DAY" = "Iniciar";
+"Turn on “All Websites”" = "Ativar “Todos os Sites”";
+"Turn PureFilter On" = "Ativar Zeboot";
+
+
+
+"HINT" = "Hint";
+"CONTACT" = "Contact";
+"SURVEY" = "Survey";
+"WEBSITE" = "Website";
+"REVIEW" = "Review";
+"INFO" = "Info";
+
+"CHAT_INFO" = "All chat content is AI-generated and does not represent official positions, etc.";

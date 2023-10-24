@@ -11,7 +11,6 @@
 		6D2F300029D9255D00A5F60C /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2F2FFF29D9255D00A5F60C /* RevenueCat */; };
 		6D2F300229D92D7000A5F60C /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F300129D92D7000A5F60C /* HelpView.swift */; };
 		6D2F300429D92DFD00A5F60C /* helpMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F300329D92DFD00A5F60C /* helpMovie.swift */; };
-		6D2F300629D9389100A5F60C /* helpMovie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D2F300529D9389100A5F60C /* helpMovie.mp4 */; };
 		6D5F3DBB2AC5170500964150 /* ViewTopLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DBA2AC5170500964150 /* ViewTopLayer.swift */; };
 		6D5F3DBC2AC5170500964150 /* ViewTopLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DBA2AC5170500964150 /* ViewTopLayer.swift */; };
 		6D5F3DBE2AC6806300964150 /* LargeButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5F3DBD2AC6806300964150 /* LargeButtonStyle.swift */; };
@@ -203,6 +202,7 @@
 		6DA9D28529D81E520006999A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9D28429D81E520006999A /* ActivityIndicator.swift */; };
 		6DA9D28629D872850006999A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9D26729D81A360006999A /* Localizable.strings */; };
 		6DBA9C4129EE6D05007C8B14 /* RolingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBA9C4029EE6D05007C8B14 /* RolingAnimation.swift */; };
+		6DEBC5BD2ADFD492007703D7 /* Test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6DEBC5BC2ADFD344007703D7 /* Test.mp4 */; };
 		6DECE8E329ED4A6300F4BCEB /* FeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DECE8E229ED4A6300F4BCEB /* FeedbackModel.swift */; };
 		6DECE8E429ED4A6300F4BCEB /* FeedbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DECE8E229ED4A6300F4BCEB /* FeedbackModel.swift */; };
 		6DECE8E629ED4A9000F4BCEB /* FeedbackStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DECE8E529ED4A9000F4BCEB /* FeedbackStar.swift */; };
@@ -265,7 +265,6 @@
 		6D2F2FFC29D9042500A5F60C /* LoadingDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDots.swift; sourceTree = "<group>"; };
 		6D2F300129D92D7000A5F60C /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		6D2F300329D92DFD00A5F60C /* helpMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpMovie.swift; sourceTree = "<group>"; };
-		6D2F300529D9389100A5F60C /* helpMovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = helpMovie.mp4; sourceTree = "<group>"; };
 		6D5F3DBA2AC5170500964150 /* ViewTopLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTopLayer.swift; sourceTree = "<group>"; };
 		6D5F3DBD2AC6806300964150 /* LargeButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButtonStyle.swift; sourceTree = "<group>"; };
 		6D5F3DC02AC6827C00964150 /* CircleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonStyle.swift; sourceTree = "<group>"; };
@@ -376,6 +375,8 @@
 		6DA9D27A29D81C4B0006999A /* PurchaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseButton.swift; sourceTree = "<group>"; };
 		6DA9D28429D81E520006999A /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		6DBA9C4029EE6D05007C8B14 /* RolingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolingAnimation.swift; sourceTree = "<group>"; };
+		6DEBC5BB2ADFBD8A007703D7 /* HelpMovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelpMovie.mp4; sourceTree = "<group>"; };
+		6DEBC5BC2ADFD344007703D7 /* Test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Test.mp4; sourceTree = "<group>"; };
 		6DECE8D829ED461100F4BCEB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		6DECE8D929ED461100F4BCEB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		6DECE8DA29ED461100F4BCEB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
@@ -392,6 +393,8 @@
 		6DF7EF692AD66D0D0083CA54 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		6DF7EF6A2AD6738E0083CA54 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		6DF7EF6B2AD673960083CA54 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6DF7EF6C2AD676BF0083CA54 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6DF7EF6D2AD678C30083CA54 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		6DF84B652ACD1C7F00D21D25 /* SafariSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariSheetView.swift; sourceTree = "<group>"; };
 		6DF84B692ACE96AF00D21D25 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		6DFC280F29D976C700C7CD24 /* PrivacyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyText.swift; sourceTree = "<group>"; };
@@ -602,7 +605,8 @@
 				6DA9D25929D8172C0006999A /* Text */,
 				6DA9D25829D817140006999A /* Model */,
 				6D2F300329D92DFD00A5F60C /* helpMovie.swift */,
-				6D2F300529D9389100A5F60C /* helpMovie.mp4 */,
+				6DEBC5BC2ADFD344007703D7 /* Test.mp4 */,
+				6DEBC5BB2ADFBD8A007703D7 /* HelpMovie.mp4 */,
 				6DFC281229D9B39F00C7CD24 /* DeleteAccountButton.swift */,
 				6D6F552E29ED3D6A00DA42A4 /* NewsImage.swift */,
 				6DECE8E529ED4A9000F4BCEB /* FeedbackStar.swift */,
@@ -900,6 +904,8 @@
 				ja,
 				"zh-Hans",
 				de,
+				id,
+				"pt-BR",
 			);
 			mainGroup = 6DA3E8F3271961FA00C269EA;
 			packageReferences = (
@@ -929,10 +935,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DEBC5BD2ADFD492007703D7 /* Test.mp4 in Resources */,
 				6DA3E941271961FD00C269EA /* Icon.png in Resources */,
 				6DA3E919271961FD00C269EA /* LaunchScreen.storyboard in Resources */,
 				6DA3E93F271961FD00C269EA /* Main.html in Resources */,
-				6D2F300629D9389100A5F60C /* helpMovie.mp4 in Resources */,
 				6DA3E945271961FD00C269EA /* Script.js in Resources */,
 				6DA9D28629D872850006999A /* Localizable.strings in Resources */,
 				6DA3E949271961FD00C269EA /* Assets.xcassets in Resources */,
@@ -1245,6 +1251,8 @@
 				6DF7EF692AD66D0D0083CA54 /* ja */,
 				6DF7EF6A2AD6738E0083CA54 /* zh-Hans */,
 				6DF7EF6B2AD673960083CA54 /* de */,
+				6DF7EF6C2AD676BF0083CA54 /* id */,
+				6DF7EF6D2AD678C30083CA54 /* pt-BR */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1374,7 +1382,7 @@
 				DEVELOPMENT_TEAM = DR9P77GFSX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "KabukiFilter Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zeboot Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1406,7 +1414,7 @@
 				DEVELOPMENT_TEAM = DR9P77GFSX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "KabukiFilter Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zeboot Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1438,7 +1446,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "KabukiFilter (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = DR9P77GFSX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -1454,7 +1462,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.04;
+				MARKETING_VERSION = 1.05;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -1478,7 +1486,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "KabukiFilter (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = DR9P77GFSX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -1494,7 +1502,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.04;
+				MARKETING_VERSION = 1.05;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,

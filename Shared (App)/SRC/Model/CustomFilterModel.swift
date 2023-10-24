@@ -34,6 +34,14 @@ class CustomFilterModel: ObservableObject {
             defaults!.set(replaceSites, forKey: "replaceSites")
         }
     }
+    
+    func extractHostName(from urlString: String) -> String {
+        if let url = URL(string: urlString), let host = url.host {
+            return host
+        } else {
+            return urlString
+        }
+    }
 
     init() {
         blockWords = defaults!.object(forKey: "blockWord") as? [String] ?? ["sample"]

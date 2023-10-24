@@ -425,9 +425,20 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
 });
 
 browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-  console.log("white:🥹", request["blurSites"]);
   const arr = request["blurSites"].map((x) => "https://" + x + "/");
 
+  function startsWithElement(arr, text) {
+    const hrefString = String(text);
+
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i].startsWith(hrefString)) {
+        console.log("" + arr[i] + "😱");
+        return true;
+      }
+    }
+
+    return false;
+  }
   const rso = document.querySelector("div#rso");
   if (rso == null) {
     return;
@@ -437,15 +448,18 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
       const anchors = child.getElementsByTagName("A");
 
       for (const a of anchors) {
-        if (a.href != null && arr.some((url) => a.href.startsWith(url))) {
+        if (startsWithElement(arr, a.href)) {
+          child.style.opacity = "0.25";
+          child.style.filter = "blur(6px)";
           if (
-            child.classList.contains("g") ||
-            child.querySelector(":scope > div.g")
+            child.classList.contains("a")
+            //   || child.querySelector(":scope > div.a")
           ) {
             //とりあえず透明にした。非表示にしたければ child.style.display = 'none'; を有効にする
             child.style.opacity = "0.25";
             child.style.filter = "blur(6px)";
             //child.style.display = 'none';
+
             continue;
           }
         }

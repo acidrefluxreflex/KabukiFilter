@@ -13,6 +13,8 @@ struct URLSection: View {
     @State private var text = ""
     @State private var isShowAlert = false
 
+    private let lc = LocalizeCodes()
+
     var body: some View {
         VStack {
             DaisyTextField(text: $text, placeholder: "New Word")
@@ -35,6 +37,7 @@ struct URLSection: View {
         .alert("Error", isPresented: $isShowAlert) {
             Text("The word should have at least 3 characters.")
         }
+        .navigationTitle(lc.text(.PremiumFunctionSectionTitle2))
     }
 
     private func save() {

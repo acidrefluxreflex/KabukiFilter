@@ -40,6 +40,10 @@ struct ChatView: View {
                         ChatBubble(message: msg).padding(.horizontal)
                             .id(msg.id)
                     }
+                    Text("チャットの内容は全てAIによって生成されたもので、公式の立場などを表したものではありません")
+                                         .font(.caption2)
+                                         .foregroundColor(.secondary)
+                                         .padding()
 
                     Spacer()
                 }.onChange(of: chatController.messages) { message in

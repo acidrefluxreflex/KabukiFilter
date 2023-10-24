@@ -13,6 +13,8 @@ struct WordSection: View {
     @State private var text = ""
     @State private var isShowAlert = false
 
+    private let lc = LocalizeCodes()
+
     var body: some View {
         VStack {
             DaisyTextField(text: $text, placeholder: "New Word")
@@ -34,6 +36,7 @@ struct WordSection: View {
         .alert("Error", isPresented: $isShowAlert) {
             Text("The word should have at least 3 characters.")
         }
+        .navigationTitle(lc.text(.PremiumFunctionSectionTitle1))
     }
 
     private func save() {

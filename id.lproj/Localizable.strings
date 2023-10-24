@@ -1,0 +1,89 @@
+/* 
+  Localizable.strings
+  KabukiFilter
+
+  Created by Kabuki Iwashita on 2023/04/01.
+  
+*/
+
+"LANGUAGE" = "English";
+"LANGUAGE" = "Bahasa Indonesia";
+
+
+"MASTER_PRICE" = "Rp6.99/bulan";
+"TERMS_OF_USE" = "・Syarat Penggunaan (EULA)";
+"PRIVACY_POLICY" = "・Kebijakan Privasi";
+"AGREE_POLICY" = "Dengan membuat akun, Anda menyetujui hal ini.";
+
+"HOME" = "Beranda";
+"CHAT" = "Obrolan";
+"SETTING" = "Pengaturan";
+"CONTACT" = "Kontak";
+"CUSTOM" = "Kustom";
+"RELAX" = "Relaks";
+
+
+"RECENT_TITLE" = "Item Terbaru";
+"HISTORY_TITLE" = "Riwayat Percakapan";
+"NEXT" = "Selanjutnya";
+"ERROR" = "Error";
+"OTHER_EX_HEAD" = "Contoh";
+"DESCRIPTION" = "Deskripsi";
+"CLOSE" = "Tutup";
+"HINT" = "Petunjuk";
+"NEW" = "Baru";
+"OVERVIEW" = "Pengantar";
+"CHAT_TIPS" = "Tips Pembuatan";
+"GO_TO_CHAT" = "Berbincang";
+"COMPLETE" = "LENGKAP";
+"THANKS_REPORT" = "Terima kasih atas kerjasamanya";
+"SEND" = "Kirim";
+"NEW" = "Baru";
+"SETTING_LIMIT" = "Terlalu banyak karakter";
+"TALK_FORM_TITLE" = "Percakapan" ;
+"REQUIRED" = "Wajib";
+
+
+"PremiumFunctionSectionTitle1" = "Kustom Kata" ;
+"PremiumFunctionSectionTitle2" = "Blok Gambar";
+"PremiumFunctionSectionTitle3" = "Blok Pencarian";
+"PremiumFunctionSectionTitle4" = "Dukungan ChatAI";
+"PremiumFunctionSectionTitle5" = "Panic Alert";
+"PremiumTableImage" = "Biasa-4";
+"MemoryViewTitle" = "Memori";
+
+"MASTERPLAN" = "Rencana Utama";
+"PLAN_ENJOY" = "Nikmati Kebebasan";
+"SUBSCRIPTION_INFO" = "Langganan akan diperpanjang otomatis kecuali dibatalkan dalam 24 jam sebelum akhir periode berlangganan saat ini. Anda dapat membatalkannya kapan saja melalui pengaturan akun iTunes. Untuk informasi lebih lanjut, lihat halaman ini";
+"SUBSCRIBE" = "Berlangganan!";
+"UPGRADE_PLAN" = "Tingkatkan Rencana";
+"RESTORE" = "Pulihkan";
+"SELECT_LANGUAGE" = "Pilih Bahasa";
+"PLEASE_UPGRADE" = "Perlu di-upgrade";
+"COMPLETE_CREATE" = "Selamat!";
+
+"URL_DESCRIPTION" = "Gambar tidak akan terlihat di situs yang Anda daftarkan.";
+"WORD_DESCRIPTION" = "Anda dapat menambahkan kata-kata sendiri untuk diblokir";
+"SEARCH_DESCRIPTION" = "Situs yang terdaftar akan kurang terlihat dalam hasil pencarian";
+"CHAT_DESCRIPTION" = "Anda dapat berbicara dengan AI untuk motivasi dan penyegaran.";
+"ALERT_DESCRIPTION" = "Atur notifikasi untuk mencegah penyalahgunaan perangkat";
+"BOT_GREETING" = "Apa kabar?";
+
+"DAYS" = "hari";
+"MEDITATE" = "Meditasi";
+"RESET" = "Reset";
+"RESET_MESSAGE" = "Merreset jumlah hari";
+"START_DAY" = "Mulai";
+"Turn on “All Websites”" = "Aktifkan “Semua Situs Web”";
+"Turn PureFilter On" = "Aktifkan Zeboot";
+
+
+
+"HINT" = "Hint";
+"CONTACT" = "Contact";
+"SURVEY" = "Survey";
+"WEBSITE" = "Website";
+"REVIEW" = "Review";
+"INFO" = "Info";
+
+"CHAT_INFO" = "All chat content is AI-generated and does not represent official positions, etc.";

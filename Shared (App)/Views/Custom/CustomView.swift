@@ -20,6 +20,10 @@ struct CustomView: View {
             } else {
                 freeSection()
             }
+            
+            #if DEBUG
+            linkSection()
+            #endif
         }.onAppear {
             manager.checkUserSubscribed()
         }.navigationTitle("Custom")
@@ -34,13 +38,15 @@ struct CustomView: View {
                     text: lc.text(.WordDescription),
                     systemName: "textformat")
             }
-            NavigationLink(destination: SearchFilterSection()) {
+        
+            NavigationLink(destination: URLSection()) {
                 TextButtonStyle(
                     title: lc.text(.PremiumFunctionSectionTitle2),
                     text: lc.text(.SearchDescription),
                     systemName: "magnifyingglass")
             }
-            NavigationLink(destination: URLSection()) {
+            NavigationLink(destination: SearchFilterSection()) {
+              
                 TextButtonStyle(
                     title: lc.text(.PremiumFunctionSectionTitle3),
                     text: lc.text(.URLDescription),

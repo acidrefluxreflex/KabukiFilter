@@ -88,7 +88,7 @@ class VideoExplainerView: UIView {
     private func setUpVideo() {
         //let asset = AVAsset(url: Bundle.main.url(forResource: "explainer-\(self.traitCollection.userInterfaceStyle == .light ? "light" : "dark")", withExtension: "mp4")!)
         let newAsset = AVAsset(
-            url: Bundle.main.url(forResource: "helpMovie", withExtension: "mp4")!)
+            url: Bundle.main.url(forResource: "Test", withExtension: "mp4")!)
         let playerItem = AVPlayerItem(asset: newAsset)
         let player = AVQueuePlayer(playerItem: playerItem)
 
