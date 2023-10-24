@@ -14,15 +14,15 @@ struct CustomView: View {
     var body: some View {
 
         List {
-         
+
             if manager.isUserSubscribed {
                 linkSection()
             } else {
                 freeSection()
             }
-            
+
             #if DEBUG
-            linkSection()
+                linkSection()
             #endif
         }.onAppear {
             manager.checkUserSubscribed()
@@ -38,7 +38,7 @@ struct CustomView: View {
                     text: lc.text(.WordDescription),
                     systemName: "textformat")
             }
-        
+
             NavigationLink(destination: URLSection()) {
                 TextButtonStyle(
                     title: lc.text(.PremiumFunctionSectionTitle2),
@@ -46,7 +46,7 @@ struct CustomView: View {
                     systemName: "magnifyingglass")
             }
             NavigationLink(destination: SearchFilterSection()) {
-              
+
                 TextButtonStyle(
                     title: lc.text(.PremiumFunctionSectionTitle3),
                     text: lc.text(.URLDescription),

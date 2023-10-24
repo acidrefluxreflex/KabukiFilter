@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct LargeButtonStyle: View {
-    
+
     @State private var color: Color
     @State private var text: String
     @State private var systemName: String
-   
+
     private let size: CGFloat = 100
 
     init(
@@ -24,8 +24,7 @@ struct LargeButtonStyle: View {
         self.text = text
         self.systemName = systemName
     }
-    
-    
+
     var body: some View {
         VStack {
             Text(text)
@@ -34,10 +33,10 @@ struct LargeButtonStyle: View {
                 .font(.largeTitle)
                 .frame(width: size - 40, height: size - 40)
         }.frame(width: size, height: size * 1.12)
-        .foregroundColor(.white)
-        .background(
-            RoundedRectangle(cornerRadius: 10)
-        )
+            .foregroundColor(.white)
+            .background(
+                RoundedRectangle(cornerRadius: 10)
+            )
     }
 }
 

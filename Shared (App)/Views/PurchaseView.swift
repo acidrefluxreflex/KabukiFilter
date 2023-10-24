@@ -28,7 +28,7 @@ struct PurchaseView: View {
                         .padding(.horizontal)
                     PremiumFunctionSection()
                         .padding(.vertical)
-                    //.padding()
+
                     RestoreButton()
                         .padding(.bottom)
 
