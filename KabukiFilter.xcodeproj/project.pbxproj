@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D1B267C2AE76CA300EA4C6E /* PremiumFunctionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9D27729D81C4B0006999A /* PremiumFunctionSection.swift */; };
+		6D1B267D2AE76CE600EA4C6E /* PrivacyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC280F29D976C700C7CD24 /* PrivacyText.swift */; };
+		6D1B267F2AE76D1C00EA4C6E /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F300129D92D7000A5F60C /* HelpView.swift */; };
 		6D2F2FFD29D9042500A5F60C /* LoadingDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F2FFC29D9042500A5F60C /* LoadingDots.swift */; };
 		6D2F300029D9255D00A5F60C /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 6D2F2FFF29D9255D00A5F60C /* RevenueCat */; };
 		6D2F300229D92D7000A5F60C /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F300129D92D7000A5F60C /* HelpView.swift */; };
@@ -209,7 +212,6 @@
 		6DF84B662ACD1C7F00D21D25 /* SafariSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF84B652ACD1C7F00D21D25 /* SafariSheetView.swift */; };
 		6DF84B672ACD1C7F00D21D25 /* SafariSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF84B652ACD1C7F00D21D25 /* SafariSheetView.swift */; };
 		6DFC281029D976C700C7CD24 /* PrivacyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC280F29D976C700C7CD24 /* PrivacyText.swift */; };
-		6DFC281129D976C700C7CD24 /* PrivacyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC280F29D976C700C7CD24 /* PrivacyText.swift */; };
 		6DFC281329D9B39F00C7CD24 /* DeleteAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC281229D9B39F00C7CD24 /* DeleteAccountButton.swift */; };
 		6DFC281429D9B39F00C7CD24 /* DeleteAccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC281229D9B39F00C7CD24 /* DeleteAccountButton.swift */; };
 /* End PBXBuildFile section */
@@ -447,6 +449,7 @@
 		6D1B26782AE7691600EA4C6E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				6DFC280F29D976C700C7CD24 /* PrivacyText.swift */,
 				6DECE8E529ED4A9000F4BCEB /* FeedbackStar.swift */,
 				6DA9D17129D57D690006999A /* ChatBubble.swift */,
 				6DA9D17029D57D690006999A /* DaisyTextField.swift */,
@@ -479,6 +482,26 @@
 				6D5F3DBA2AC5170500964150 /* ViewTopLayer.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		6D1B267B2AE76A9100EA4C6E /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9D27529D81C470006999A /* PremiumPrivacyText.swift */,
+				6DA9D27829D81C4B0006999A /* PremiumTableImage.swift */,
+				6DA9D27729D81C4B0006999A /* PremiumFunctionSection.swift */,
+				6DA9D14129D57D430006999A /* PurchaseView.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		6D1B267E2AE76D1300EA4C6E /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F300129D92D7000A5F60C /* HelpView.swift */,
+				6DA9D13829D57D430006999A /* TutorialView.swift */,
+			);
+			path = Tutorial;
 			sourceTree = "<group>";
 		};
 		6D5F3DCF2AC690D900964150 /* AnimatedTabBar */ = {
@@ -614,15 +637,11 @@
 		6DA9D1BB29D6887D0006999A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6DA9D13829D57D430006999A /* TutorialView.swift */,
-				6DFC280F29D976C700C7CD24 /* PrivacyText.swift */,
-				6D2F300129D92D7000A5F60C /* HelpView.swift */,
+				6D1B267E2AE76D1300EA4C6E /* Tutorial */,
+				6D1B267B2AE76A9100EA4C6E /* Purchase */,
 				6DA9D1C329D6B6200006999A /* Meditate */,
 				6DA9D1C229D6B5EA0006999A /* Custom */,
 				6DA9D1C129D6B5B80006999A /* Home */,
-				6DA9D14129D57D430006999A /* PurchaseView.swift */,
-				6DA9D13F29D57D430006999A /* SelectionView.swift */,
-				6DA9D13729D57D420006999A /* SettingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -665,6 +684,8 @@
 		6DA9D1C129D6B5B80006999A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				6DA9D13729D57D420006999A /* SettingView.swift */,
+				6DA9D13F29D57D430006999A /* SelectionView.swift */,
 				6DA9D13B29D57D430006999A /* HelpSection.swift */,
 				6DA9D13D29D57D430006999A /* HomeView.swift */,
 				6DECE8E829ED4AFA00F4BCEB /* FeedbackView.swift */,
@@ -744,10 +765,7 @@
 			children = (
 				6DA9D27329D81C460006999A /* PremiumButton.swift */,
 				6DA9D27929D81C4B0006999A /* PremiumFunctionCell.swift */,
-				6DA9D27729D81C4B0006999A /* PremiumFunctionSection.swift */,
 				6DA9D27629D81C4A0006999A /* PremiumPriceLabel.swift */,
-				6DA9D27529D81C470006999A /* PremiumPrivacyText.swift */,
-				6DA9D27829D81C4B0006999A /* PremiumTableImage.swift */,
 				6DA9D27A29D81C4B0006999A /* PurchaseButton.swift */,
 				6DA9D27429D81C470006999A /* RestoreButton.swift */,
 			);
@@ -1117,6 +1135,7 @@
 				6DA9D19A29D57D7F0006999A /* LocalizeCodes.swift in Sources */,
 				6DA9D16229D57D440006999A /* SelectionView.swift in Sources */,
 				6DA9D1B029D57D7F0006999A /* UIImageExtension.swift in Sources */,
+				6D1B267C2AE76CA300EA4C6E /* PremiumFunctionSection.swift in Sources */,
 				6DA9D17E29D57D690006999A /* AppleLoginButton.swift in Sources */,
 				6DA9D16429D57D440006999A /* NewsSection.swift in Sources */,
 				6DA9D15E29D57D440006999A /* MeditateView.swift in Sources */,
@@ -1124,6 +1143,7 @@
 				6DA9D18029D57D690006999A /* TimerView.swift in Sources */,
 				6DA9D16629D57D440006999A /* TutorialView.swift in Sources */,
 				6D5F3DD82AC694AD00964150 /* ATBCustom.swift in Sources */,
+				6D1B267D2AE76CE600EA4C6E /* PrivacyText.swift in Sources */,
 				6DA9D1B729D57E250006999A /* AuthController.swift in Sources */,
 				6DA9D15229D57D440006999A /* PurchaseView.swift in Sources */,
 				6DA9D16029D57D440006999A /* WordSection.swift in Sources */,
@@ -1131,10 +1151,10 @@
 				6DA9D15629D57D440006999A /* ChatView.swift in Sources */,
 				6DECE8EA29ED4AFA00F4BCEB /* FeedbackView.swift in Sources */,
 				6DA9D18229D57D690006999A /* DaisyTextField.swift in Sources */,
+				6D1B267F2AE76D1C00EA4C6E /* HelpView.swift in Sources */,
 				6DA9D17C29D57D690006999A /* GoogleLoginButton.swift in Sources */,
 				6DA9D15029D57D440006999A /* SettingView.swift in Sources */,
 				6DA9D1B229D57D7F0006999A /* Theme.swift in Sources */,
-				6DFC281129D976C700C7CD24 /* PrivacyText.swift in Sources */,
 				6DECE8E729ED4A9000F4BCEB /* FeedbackStar.swift in Sources */,
 				6DA9D1A829D57D7F0006999A /* CodableExtension.swift in Sources */,
 				6DA9D26A29D81B270006999A /* TextButtonStyle.swift in Sources */,
